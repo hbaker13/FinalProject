@@ -8,10 +8,10 @@
     <string name="night_mode">Night Mode</string>
     <string name="background">Background</string>
 
-    <string-array name="filler_text">
+    <string-array name="menu_filler_text">
         <item>What?\n\nWhy?\n\nHow?\n\n</item>
         <item>Setting Time!</item>
-        <item>Drink More Water</item>
+        <item>Here is some Fun Fact!</item>
     </string-array>
 
     <string-array name="menu_titles">
@@ -20,13 +20,31 @@
         <item>Fun Facts!</item>
     </string-array>
 
+    <string-array name="funfact_titles">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
     <string-array name="menu_info">
         <item>What Application is this?</item>
         <item>Let\'s Start the Application!</item>
         <item>Here is some Fun Facts!</item>
     </string-array>
 
+    <string-array name="funfact_info">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
     <array name="menu_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+    </array>
+
+    <array name="funfact_images">
         <item>@drawable/img_baseball</item>
         <item>@drawable/img_badminton</item>
         <item>@drawable/img_basketball</item>
