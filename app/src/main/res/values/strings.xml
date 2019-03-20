@@ -1,4 +1,31 @@
 <resources>
-    <string name="app_name">FinalProject</string>
-    <string name="nama">aplikasi</string>
+    <string name="app_name">Two Twinks</string>
+    <string name="title_placeholder">Title</string>
+    <string name="menu_info_placeholder">Here is some menu</string>
+    <string name="sports_image">Menu Image</string>
+    <string name="filler_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+        vitae semper quam. In a metus ut nisl pharetra hendrerit et a leo. Curabitur nec sapien
+        odio. Vestibulum a mollis felis. Cras molestie felis nibh, ut maximus mauris feugiat
+        tincidunt. Curabitur ultricies eros sed ipsum pulvinar vehicula. Maecenas volutpat,
+        massa sit amet aliquam eleifend, massa lorem tempor sapien, eget finibus massa dolor
+        molestie lorem. Suspendisse at purus mauris. Proin nibh ligula, suscipit vel pharetra
+        posuere, bibendum id lorem.</string>
+
+    <string-array name="menu_titles">
+        <item>What is This?</item>
+        <item>Let\'s Start!</item>
+        <item>Fun Facts!</item>
+    </string-array>
+
+    <string-array name="menu_info">
+        <item>What Application is this?</item>
+        <item>Let\'s Start the Application!</item>
+        <item>Here is some Fun Facts!</item>
+    </string-array>
+
+    <array name="menu_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_basketball</item>
+    </array>
 </resources>
