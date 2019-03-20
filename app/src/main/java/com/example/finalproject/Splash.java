@@ -1,5 +1,6 @@
 package com.example.finalproject;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 public class Splash extends AppCompatActivity {
     TextView tvSplash;
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
