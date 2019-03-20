@@ -1,4 +1,4 @@
 package com.example.finalproject;
 
-public class FunFactActivity {
+public class MenuAdspter {
 }

@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StartActivity"></activity>
+        <activity android:name=".BackgroundActivity"></activity>
+        <activity android:name=".StartActivity" />
         <activity android:name=".WhatActivity" />
         <activity android:name=".Splash">
             <intent-filter>

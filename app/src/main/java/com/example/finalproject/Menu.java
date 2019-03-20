@@ -1,4 +1,4 @@
 package com.example.finalproject;
 
-public class FunFact {
+public class Menu {
 }
