@@ -10,6 +10,7 @@
     tools:context="com.example.finalproject.NotificationActivity">
 
     <LinearLayout
+        android:id="@+id/n20"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/activity_vertical_margin"
@@ -31,9 +32,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/exer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/n20"
         android:orientation="horizontal">
 
         <EditText
@@ -52,9 +55,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/drink"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@id/exer"
         android:orientation="horizontal">
 
         <EditText
