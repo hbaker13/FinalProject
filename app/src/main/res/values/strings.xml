@@ -2,7 +2,10 @@
     <string name="app_name">Two Twinks</string>
     <string name="title_placeholder">Title</string>
     <string name="menu_info_placeholder">Here is some menu</string>
-    <string name="sports_image">Menu Image</string>
+    <string name="funfact_label">Fun Fact</string>
+    <string name="funfact_info_placeholder">Here is some funfact</string>
+    <string name="menu_image">Menu Image</string>
+    <string name="funfact_image">Fun Fact Image</string>
     <string name="filler">Lorem Ipsum</string>
     <string name="about_us">About Us</string>
     <string name="night_mode">Night Mode</string>
@@ -26,6 +29,12 @@
         <item>3</item>
     </string-array>
 
+    <string-array name="funfact_filler_text">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
     <string-array name="menu_info">
         <item>What Application is this?</item>
         <item>Let\'s Start the Application!</item>
@@ -33,9 +42,9 @@
     </string-array>
 
     <string-array name="funfact_info">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
+        <item>#1</item>
+        <item>#2</item>
+        <item>#3</item>
     </string-array>
 
     <array name="menu_images">
