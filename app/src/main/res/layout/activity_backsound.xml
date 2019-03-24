@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,34 +7,38 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.finalproject.BacksoundActivity">
+    tools:context="com.example.finalproject.BacksoundActivity"
+    android:orientation="vertical">
 
-    <LinearLayout
-        android:id="@+id/bs"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@id/bstext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:id="@+id/choosebs"
+        <RelativeLayout
+            android:id="@+id/bs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_below="@id/button_exer"
+            android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/bs_spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/bstext">
-        </EditText>
+            android:padding="@dimen/padding_regular">
+        </Spinner>
 
         <Button
-            android:id="@+id/setbs"
+            android:id="@+id/button_bs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="setBacksound"
-            android:text="@string/show_button" />
+            android:layout_toRightOf="@id/bs_spinner"
+            android:onClick="saveBacksound"
+            android:text="@string/button_bs" />
 
-    </LinearLayout>
-
-</RelativeLayout>
+        </RelativeLayout>
+        <Button
+            android:id="@+id/pick_from_libary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="pickFromLibrary"
+            android:text="@string/pick_library"
+            android:layout_toEndOf="@+id/bs"
+            tools:ignore="RtlCompat" />
+</LinearLayout>
