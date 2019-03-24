@@ -1,38 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.finalproject.StartActivity">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/donut"
+        android:layout_width="132dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/menu1"
+        android:onClick="showNotification"
+        android:padding="@dimen/padding_regular"
+        android:src="@drawable/donut_circle" />
 
-        <ImageView
-            android:id="@+id/sportsImageDetail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_wide"
+        android:layout_toRightOf="@id/donut"
+        android:text="@string/menu1"/>
 
-        <TextView
-            android:id="@+id/titleDetail"
-            style="@style/TextAppearance.AppCompat.Headline"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/sportsImageDetail"
-            android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/title_placeholder"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+    <ImageView
+        android:id="@+id/ice_cream"
+        android:layout_width="130dp"
+        android:layout_height="133dp"
+        android:layout_below="@id/donut"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/menu2"
+        android:onClick="showSetTime"
+        android:padding="@dimen/padding_regular"
+        android:src="@drawable/icecream_circle" />
 
-        <TextView
-            android:id="@+id/subTitleDetail"
-            style="@style/TextAppearance.AppCompat.Subhead"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/titleDetail"
-            android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/filler" />
-    </RelativeLayout>
-</ScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_wide"
+        android:layout_below="@id/donut"
+        android:layout_toRightOf="@id/ice_cream"
+        android:text="@string/menu2"/>
+
+    <ImageView
+        android:id="@+id/froyo"
+        android:layout_width="127dp"
+        android:layout_height="137dp"
+        android:layout_below="@id/ice_cream"
+        android:layout_marginTop="-1dp"
+        android:contentDescription="@string/menu3"
+        android:onClick="showBacksound"
+        android:padding="@dimen/padding_regular"
+        android:src="@drawable/froyo_circle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_wide"
+        android:layout_below="@id/ice_cream"
+        android:layout_toRightOf="@id/froyo"
+        android:text="@string/menu3"/>
+</RelativeLayout>

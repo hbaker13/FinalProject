@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@id/sportsImageDetail"
             android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/what_intro"
+            android:text="@string/about_us"
             android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
 
         <TextView

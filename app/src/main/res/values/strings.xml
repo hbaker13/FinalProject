@@ -16,6 +16,9 @@
     <string name="how_intro">How to Use This Application?</string>
     <string name="start_intro">Let\'s Start the Application!</string>
     <string name="ff_intro">Here is some Fun Facts!</string>
+    <string name="menu1">Notification</string>
+    <string name="menu2">Set Time</string>
+    <string name="menu3">Backsound</string>
 
     <string-array name="funfact_titles">
         <item>1</item>
