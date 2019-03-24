@@ -9,6 +9,7 @@
     <string name="filler">Lorem Ipsum</string>
     <string name="about_us">About Us</string>
     <string name="night_mode">Night Mode</string>
+    <string name="day_mode">Day Mode</string>
     <string name="background">Background</string>
 
     <string-array name="menu_filler_text">

@@ -1,14 +1,14 @@
 package com.example.finalproject;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class BackgroundActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class UsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_background);
+        setContentView(R.layout.activity_us);
     }
 }
