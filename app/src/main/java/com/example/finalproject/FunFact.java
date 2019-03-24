@@ -1,39 +1,40 @@
 package com.example.finalproject;
 
-import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.Toast;
+import android.content.Context;
+import android.content.Intent;
 
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.annotation.DrawableRes;
 
-public class FunFact extends AppCompatActivity implements AdapterView.OnItemClickListener {
+class FunFact {
 
-    ListView listView;
-    ArrayAdapter<CharSequence> adapter;
+    private final String title;
+    private final String info;
+    private final int imageResource;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_funfact);
+    static final String TITLE_KEY = "Title";
+    static final String IMAGE_KEY = "Image Resource";
 
-        listView = (ListView) findViewById(R.id.listView);
-        adapter = ArrayAdapter.createFromResource(this,R.array.funfact_info,R.layout.list_item_facts);
-
-        listView.setAdapter(adapter);
-        listView.setOnItemClickListener(this);
-
+    FunFact(String title, String info, int imageResource) {
+        this.title = title;
+        this.info = info;
+        this.imageResource = imageResource;
     }
 
-    /*@Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.me);
-    }*/
+    String getTitle() {
+        return title;
+    }
+    String getInfo() {
+        return info;
+    }
 
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Toast.makeText(this, adapter.getItem(position), Toast.LENGTH_SHORT).show();
+    int getImageResource() {
+        return imageResource;
+    }
+
+    static Intent starter(Context context, String title, @DrawableRes int imageResId) {
+        Intent detailIntent = new Intent(context, FFActivity.class);
+        detailIntent.putExtra(TITLE_KEY, title);
+        detailIntent.putExtra(IMAGE_KEY, imageResId);
+        return detailIntent;
     }
 }
