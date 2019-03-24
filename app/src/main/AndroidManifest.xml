@@ -13,10 +13,6 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SetTimeActivity"></activity>
-        <activity android:name=".UsActivity" />
-        <activity android:name=".BacksoundActivity" />
-        <activity android:name=".NotificationActivity" />
         <activity
             android:name=".SplashScreen"
             android:label="@string/app_name"
@@ -30,9 +26,41 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".BackgroundActivity" />
-        <activity android:name=".StartActivity" />
-        <activity android:name=".WhatActivity" />
+        <activity android:name=".UsActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".WhatActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".StartActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" /></activity>
+        <activity android:name=".BacksoundActivity"
+            android:parentActivityName=".StartActivity">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".SetTimeActivity"
+            android:parentActivityName=".StartActivity">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".NotificationActivity"
+            android:parentActivityName=".StartActivity">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
     </application>
 
 </manifest>
