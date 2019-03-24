@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.finalproject.UsActivity">
+    tools:context="com.example.finalproject.FFActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <ImageView
+            android:id="@+id/sportsImageDetail"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
 
         <TextView
             android:id="@+id/titleDetail"
@@ -21,16 +23,24 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@id/sportsImageDetail"
             android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/what_intro"
+            android:text="@string/title_placeholder"
             android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
-
+        <TextView
+            android:id="@+id/newsTitleDetail"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sportsImageDetail"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="@string/funfact_label"
+            android:textColor="?android:textColorSecondary" />
         <TextView
             android:id="@+id/subTitleDetail"
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/titleDetail"
+            android:layout_below="@id/newsTitleDetail"
             android:padding="@dimen/activity_horizontal_margin"
             android:text="@string/filler" />
     </RelativeLayout>
-</LinearLayout>
+</ScrollView>

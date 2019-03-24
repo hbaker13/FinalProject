@@ -13,7 +13,8 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UsActivity"></activity>
+        <activity android:name=".SetTimeActivity"></activity>
+        <activity android:name=".UsActivity" />
         <activity android:name=".BacksoundActivity" />
         <activity android:name=".NotificationActivity" />
         <activity

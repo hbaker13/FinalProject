@@ -1,16 +1,13 @@
 <resources>
     <string name="app_name">Two Twinks</string>
     <string name="title_placeholder">Title</string>
-    <string name="menu_info_placeholder">Here is some menu</string>
     <string name="funfact_label">Fun Fact</string>
     <string name="funfact_info_placeholder">Here is some funfact</string>
-    <string name="menu_image">Menu Image</string>
     <string name="funfact_image">Fun Fact Image</string>
     <string name="filler">Lorem Ipsum</string>
     <string name="about_us">About Us</string>
     <string name="night_mode">Night Mode</string>
     <string name="day_mode">Day Mode</string>
-    <string name="background">Background</string>
     <string name="what_name">What is This?</string>
     <string name="start_name">Let\'s Start!</string>
     <string name="ff_name">Fun Facts!</string>
@@ -44,7 +41,7 @@
         <item>@drawable/img_basketball</item>
     </array>
 
-<!--    <string name="phonenumber_label">"Phone Number: "</string>
+    <!--    <string name="phonenumber_label">"Phone Number: "</string>
     <string-array name="labels_array">
         <item>Home</item>
         <item>Work</item>
