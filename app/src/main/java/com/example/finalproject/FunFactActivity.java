@@ -2,14 +2,14 @@ package com.example.finalproject;
 
 import android.content.res.TypedArray;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class FunFactActivity extends AppCompatActivity {
@@ -29,9 +29,9 @@ public class FunFactActivity extends AppCompatActivity {
 
         mRecyclerView.setLayoutManager(new GridLayoutManager(this, gridColumnCount));
 
-        mSportsData = new ArrayList<>();
+        mFunFactData = new ArrayList<>();
 
-        mAdapter = new SportsAdapter(this, mSportsData);
+        mAdapter = new FunFactAdapter(this, mFunFactData);
         mRecyclerView.setAdapter(mAdapter);
 
         initializeData();
@@ -55,7 +55,7 @@ public class FunFactActivity extends AppCompatActivity {
                 int from = viewHolder.getAdapterPosition();
                 int to = target.getAdapterPosition();
 
-                Collections.swap(mSportsData, from, to);
+                Collections.swap(mFunFactData, from, to);
                 mAdapter.notifyItemMoved(from, to);
                 return true;
             }
@@ -63,7 +63,7 @@ public class FunFactActivity extends AppCompatActivity {
             @Override
             public void onSwiped(RecyclerView.ViewHolder viewHolder, int direction) {
 
-                mSportsData.remove(viewHolder.getAdapterPosition());
+                mFunFactData.remove(viewHolder.getAdapterPosition());
 
                 mAdapter.notifyItemRemoved(viewHolder.getAdapterPosition());
             }
@@ -73,14 +73,14 @@ public class FunFactActivity extends AppCompatActivity {
     }
 
     private void initializeData() {
-        String[] sportsList = getResources().getStringArray(R.array.sports_titles);
-        String[] sportsInfo = getResources().getStringArray(R.array.sports_info);
-        TypedArray sportsImageResources = getResources().obtainTypedArray(R.array.sports_images);
-        mSportsData.clear();
+        String[] funFactList = getResources().getStringArray(R.array.funfact_titles);
+        String[] funFactInfo = getResources().getStringArray(R.array.funfact_info);
+        TypedArray sportsImageResources = getResources().obtainTypedArray(R.array.funfact_images);
+        mFunFactData.clear();
 
 
-        for(int i=0; i<sportsList.length; i++){
-            mSportsData.add(new Sport(sportsList[i], sportsInfo[i],
+        for(int i=0; i<funFactList.length; i++){
+            mFunFactData.add(new FunFact(funFactList[i], funFactInfo[i],
                     sportsImageResources.getResourceId(i,0)));
         }
 
@@ -89,7 +89,7 @@ public class FunFactActivity extends AppCompatActivity {
         mAdapter.notifyDataSetChanged();
     }
 
-    public void resetSports(View view) {
+    public void resetFunFacts(View view) {
         initializeData();
     }
 }
