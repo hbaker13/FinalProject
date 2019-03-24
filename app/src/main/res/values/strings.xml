@@ -19,6 +19,7 @@
     <string name="menu1">Notification</string>
     <string name="menu2">Set Time</string>
     <string name="menu3">Backsound</string>
+    <string name="button_notif">Set Notification</string>
 
     <string-array name="funfact_titles">
         <item>1</item>

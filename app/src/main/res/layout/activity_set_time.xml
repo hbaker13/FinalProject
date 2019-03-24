@@ -17,19 +17,19 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@id/bstext"
+            android:id="@+id/sttext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <EditText
-            android:id="@+id/choosebs"
+            android:id="@+id/choosest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/bstext">
         </EditText>
 
         <Button
-            android:id="@+id/setbs"
+            android:id="@+id/setst"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="setTime"
