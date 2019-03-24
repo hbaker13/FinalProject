@@ -10,12 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/sportsImageDetail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true" />
-
         <TextView
             android:id="@+id/titleDetail"
             style="@style/TextAppearance.AppCompat.Headline"
@@ -23,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_alignBottom="@id/sportsImageDetail"
             android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/title_placeholder"
+            android:text="@string/what_intro"
             android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
 
         <TextView
