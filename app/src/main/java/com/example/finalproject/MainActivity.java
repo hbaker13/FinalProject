@@ -5,21 +5,16 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
-public class MainActivity extends AppCompatActivity implements ListView.OnItemClickListener{
-    private ListView listView;
+public class MainActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        listView = findViewById(R.id.listView);
-        listView.setOnItemClickListener(this);
-        setSupportActionBar(toolbar);
     }
 
     @Override
@@ -62,6 +57,18 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
         return super.onOptionsItemSelected(item);
     }
 
-    public void showMenu(View view) {
+    public void showWhat(View view) {
+        Intent iw = new Intent(this, WhatActivity.class);
+        startActivity(iw);
+    }
+
+    public void showStart(View view) {
+        Intent is = new Intent(this, StartActivity.class);
+        startActivity(is);
+    }
+
+    public void showFunFact(View view) {
+        Intent iff = new Intent(this, FunFactActivity.class);
+        startActivity(iff);
     }
 }
