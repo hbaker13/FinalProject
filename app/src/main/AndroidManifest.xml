@@ -42,7 +42,8 @@
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" /></activity>
+                android:value=".MainActivity" />
+        </activity>
         <activity android:name=".BacksoundActivity"
             android:parentActivityName=".StartActivity">
             <meta-data
@@ -60,6 +61,12 @@
             <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".FunFactActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
         </activity>
     </application>
 

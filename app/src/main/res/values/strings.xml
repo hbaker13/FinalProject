@@ -23,6 +23,9 @@
     <string name="button_bs">Set Backsound</string>
     <string name="button_st">Set Time</string>
     <string name="pick_library">Pick From Library</string>
+    <string name="twenty">Rules Of 20</string>
+    <string name="drink">Drink</string>
+    <string name="exer">Simple Exercise</string>
 
     <string-array name="funfact_titles">
         <item>1</item>

@@ -1,8 +1,9 @@
 package com.example.finalproject;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class NotificationActivity extends AppCompatActivity {
 
@@ -10,5 +11,14 @@ public class NotificationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notification);
+    }
+
+    public void saveNotif20(View view) {
+    }
+
+    public void saveNotifExer(View view) {
+    }
+
+    public void saveNotifDrink(View view) {
     }
 }
