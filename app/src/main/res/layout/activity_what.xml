@@ -48,10 +48,11 @@
             style="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/sportsImageDetail"
+            android:layout_alignBottom="@id/subTitleWhat"
             android:padding="@dimen/activity_horizontal_margin"
             android:text="@string/why_intro"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="NotSibling" />
 
 
         <ScrollView
@@ -79,10 +80,11 @@
             style="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/sportsImageDetail"
+            android:layout_alignBottom="@id/subTitleWhy"
             android:padding="@dimen/activity_horizontal_margin"
             android:text="@string/how_intro"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="NotSibling" />
 
 
         <ScrollView
