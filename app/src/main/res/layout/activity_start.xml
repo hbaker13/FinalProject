@@ -57,7 +57,7 @@
         android:contentDescription="@string/menu3"
         android:onClick="showBacksound"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/froyo_circle" />
+        android:src="@drawable/backsound" />
 
     <TextView
         android:layout_width="wrap_content"
