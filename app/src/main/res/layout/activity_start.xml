@@ -20,7 +20,7 @@
         android:contentDescription="@string/menu1"
         android:onClick="showNotification"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/donut_circle" />
+        android:src="@drawable/notification" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,7 +38,7 @@
         android:contentDescription="@string/menu2"
         android:onClick="showSetTime"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/icecream_circle" />
+        android:src="@drawable/set_time" />
 
     <TextView
         android:layout_width="wrap_content"
