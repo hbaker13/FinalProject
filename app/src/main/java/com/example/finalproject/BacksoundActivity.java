@@ -1,8 +1,9 @@
 package com.example.finalproject;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class BacksoundActivity extends AppCompatActivity {
 
@@ -10,5 +11,11 @@ public class BacksoundActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_backsound);
+    }
+
+    public void pickFromLibrary(View view) {
+    }
+
+    public void saveBacksound(View view) {
     }
 }
