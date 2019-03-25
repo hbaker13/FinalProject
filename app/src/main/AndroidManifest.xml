@@ -68,6 +68,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
         </activity>
+        <activity android:name=".FFActivity"
+            android:parentActivityName=".FunFactActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FunFactActivity"/>
+        </activity>
     </application>
 
 </manifest>
