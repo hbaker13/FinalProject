@@ -21,7 +21,7 @@ public class FFActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail_funfact);
 
         TextView sportsTitle = (TextView)findViewById(R.id.titleDetail);
-        ImageView sportsImage = (ImageView)findViewById(R.id.sportsImageDetail);
+        ImageView sportsImage = (ImageView)findViewById(R.id.funfactImage);
 
         Drawable drawable = ContextCompat.getDrawable
                 (this,getIntent().getIntExtra(FunFact.IMAGE_KEY, 0));

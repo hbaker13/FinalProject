@@ -32,7 +32,7 @@ class FunFactAdapter extends RecyclerView.Adapter<FunFactAdapter.FunFactViewHold
         mGradientDrawable.setColor(Color.GRAY);
 
         Drawable drawable = ContextCompat.getDrawable
-                (mContext,R.drawable.img_badminton);
+                (mContext,R.drawable.eye_image);
         if(drawable != null) {
             mGradientDrawable.setSize(drawable.getIntrinsicWidth(), drawable.getIntrinsicHeight());
         }
