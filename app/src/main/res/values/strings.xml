@@ -48,6 +48,6 @@
     <array name="funfact_images">
         <item>@drawable/eye_image</item>
         <item>@drawable/drink_image</item>
-        <item>@drawable/img_badminton</item>
+        <item>@drawable/exer_image</item>
     </array>
 </resources>
