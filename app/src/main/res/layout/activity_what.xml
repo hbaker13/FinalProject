@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:padding="@dimen/activity_horizontal_margin"
             android:text="@string/what_intro"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+            android:textColor="?android:textColorSecondary" />
 
 
         <ScrollView
@@ -51,7 +51,7 @@
             android:layout_alignBottom="@id/subTitleWhat"
             android:padding="@dimen/activity_horizontal_margin"
             android:text="@string/why_intro"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:textColor="?android:textColorSecondary"
             tools:ignore="NotSibling" />
 
 
@@ -83,7 +83,7 @@
             android:layout_alignBottom="@id/subTitleWhy"
             android:padding="@dimen/activity_horizontal_margin"
             android:text="@string/how_intro"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:textColor="?android:textColorSecondary"
             tools:ignore="NotSibling" />
 
 
