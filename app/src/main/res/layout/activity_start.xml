@@ -23,11 +23,19 @@
         android:src="@drawable/twenty_circle" />
 
     <TextView
+        android:id="@+id/twenyy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/padding_wide"
+        android:padding="@dimen/padding_normal"
         android:layout_toRightOf="@id/twentyyy"
         android:text="@string/menu1"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_normal"
+        android:layout_toRightOf="@id/twentyyy"
+        android:layout_below="@id/twenyy"/>
 
     <ImageView
         android:id="@+id/drinkyyy"
@@ -41,12 +49,20 @@
         android:src="@drawable/drink_circle" />
 
     <TextView
+        android:id="@+id/drinyyy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/padding_wide"
+        android:padding="@dimen/padding_normal"
         android:layout_below="@id/twentyyy"
         android:layout_toRightOf="@id/drinkyyy"
         android:text="@string/menu2"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_normal"
+        android:layout_toRightOf="@id/drinkyyy"
+        android:layout_below="@id/drinyyy"/>
 
     <ImageView
         android:id="@+id/exercise"
@@ -60,10 +76,18 @@
         android:src="@drawable/exer_circle" />
 
     <TextView
+        android:id="@+id/exy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/padding_wide"
+        android:padding="@dimen/padding_normal"
         android:layout_below="@id/drinkyyy"
         android:layout_toRightOf="@id/exercise"
         android:text="@string/menu3"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_normal"
+        android:layout_toRightOf="@id/exercise"
+        android:layout_below="@id/exy"/>
 </RelativeLayout>
