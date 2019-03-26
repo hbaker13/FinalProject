@@ -16,12 +16,12 @@
     <string name="how_intro">How to Use This Application?</string>
     <string name="start_intro">Let\'s Start the Application!</string>
     <string name="ff_intro">Here is some Fun Facts!</string>
-    <string name="menu1">Notification</string>
-    <string name="menu2">Set Time</string>
-    <string name="menu3">Backsound</string>
-    <string name="button_notif">Set Notification</string>
-    <string name="button_bs">Set Backsound</string>
-    <string name="button_st">Set Time</string>
+    <string name="menu1">Rules of 20</string>
+    <string name="menu2">Drink</string>
+    <string name="menu3">Exercise</string>
+    <string name="button_1">Set Notification</string>
+    <string name="button_2">Set Backsound</string>
+    <string name="button_3">Set Time</string>
     <string name="pick_library">Pick From Library</string>
     <string name="twenty">Rules Of 20</string>
     <string name="drink">Drink</string>
@@ -50,17 +50,4 @@
         <item>@drawable/drink_image</item>
         <item>@drawable/img_badminton</item>
     </array>
-
-    <!--    <string name="phonenumber_label">"Phone Number: "</string>
-    <string-array name="labels_array">
-        <item>Home</item>
-        <item>Work</item>
-        <item>Mobile</item>
-        <item>Other</item>
-    </string-array>
-    <string name="spinner_work">Home</string>
-    <string name="hint_phonenumber">Enter phone number</string>
-    <string name="show_button">Show</string>
-    <string name="nothing_entered">Nothing entered.</string>
-    <string name="nothing_selected">"onNothingSelected: "</string>-->
 </resources>

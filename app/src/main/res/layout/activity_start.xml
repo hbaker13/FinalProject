@@ -13,12 +13,12 @@
     tools:context="com.example.finalproject.StartActivity">
 
     <ImageView
-        android:id="@+id/donut"
+        android:id="@+id/twentyyy"
         android:layout_width="132dp"
         android:layout_height="144dp"
         android:layout_marginTop="0dp"
         android:contentDescription="@string/menu1"
-        android:onClick="showNotification"
+        android:onClick="showRulesOf20"
         android:padding="@dimen/padding_regular"
         android:src="@drawable/notification" />
 
@@ -26,44 +26,44 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_wide"
-        android:layout_toRightOf="@id/donut"
+        android:layout_toRightOf="@id/twentyyy"
         android:text="@string/menu1"/>
 
     <ImageView
-        android:id="@+id/ice_cream"
+        android:id="@+id/drinkyyy"
         android:layout_width="130dp"
         android:layout_height="133dp"
-        android:layout_below="@id/donut"
+        android:layout_below="@id/twentyyy"
         android:layout_marginTop="0dp"
         android:contentDescription="@string/menu2"
-        android:onClick="showSetTime"
+        android:onClick="showDrink"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/set_time" />
+        android:src="@drawable/drink_circle" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_wide"
-        android:layout_below="@id/donut"
-        android:layout_toRightOf="@id/ice_cream"
+        android:layout_below="@id/twentyyy"
+        android:layout_toRightOf="@id/drinkyyy"
         android:text="@string/menu2"/>
 
     <ImageView
-        android:id="@+id/froyo"
+        android:id="@+id/exercise"
         android:layout_width="127dp"
         android:layout_height="137dp"
-        android:layout_below="@id/ice_cream"
+        android:layout_below="@id/drinkyyy"
         android:layout_marginTop="-1dp"
         android:contentDescription="@string/menu3"
-        android:onClick="showBacksound"
+        android:onClick="showExercise"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/backsound" />
+        android:src="@drawable/exer" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_wide"
-        android:layout_below="@id/ice_cream"
-        android:layout_toRightOf="@id/froyo"
+        android:layout_below="@id/drinkyyy"
+        android:layout_toRightOf="@id/exercise"
         android:text="@string/menu3"/>
 </RelativeLayout>

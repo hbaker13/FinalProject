@@ -14,18 +14,18 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
     }
 
-    public void showNotification(View view) {
-        Intent in = new Intent(this, NotificationActivity.class);
+    public void showRulesOf20(View view) {
+        Intent in = new Intent(this, RulesOf20Activity.class);
         startActivity(in);
     }
 
-    public void showSetTime(View view) {
-        Intent ist = new Intent(this, SetTimeActivity.class);
+    public void showDrink(View view) {
+        Intent ist = new Intent(this, DrinkActivity.class);
         startActivity(ist);
     }
 
-    public void showBacksound(View view) {
-        Intent ibs = new Intent(this, BacksoundActivity.class);
+    public void showExercise(View view) {
+        Intent ibs = new Intent(this, ExerciseActivity.class);
         startActivity(ibs);
     }
 }

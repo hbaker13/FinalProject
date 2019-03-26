@@ -13,6 +13,9 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ExerciseActivity"></activity>
+        <activity android:name=".DrinkActivity" />
+        <activity android:name=".RuleOf20Activity" />
         <activity
             android:name=".SplashScreen"
             android:label="@string/app_name"
@@ -26,53 +29,61 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".UsActivity"
+        <activity
+            android:name=".UsActivity"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".WhatActivity"
+        <activity
+            android:name=".WhatActivity"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".StartActivity"
+        <activity
+            android:name=".StartActivity"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".BacksoundActivity"
+        <activity
+            android:name=".BacksoundActivity"
             android:parentActivityName=".StartActivity">
             <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-        <activity android:name=".SetTimeActivity"
+        <activity
+            android:name=".SetTimeActivity"
             android:parentActivityName=".StartActivity">
             <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-        <activity android:name=".NotificationActivity"
+        <activity
+            android:name=".NotificationActivity"
             android:parentActivityName=".StartActivity">
             <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
-        <activity android:name=".FunFactActivity"
+        <activity
+            android:name=".FunFactActivity"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity" />
         </activity>
-        <activity android:name=".FFActivity"
+        <activity
+            android:name=".FFActivity"
             android:parentActivityName=".FunFactActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FunFactActivity"/>
+                android:value=".FunFactActivity" />
         </activity>
     </application>
 
