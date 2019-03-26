@@ -19,14 +19,13 @@
 
         <TextView
             android:id="@+id/titleDetail"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            style="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/uus"
+            android:layout_alignBottom="@id/uus"
             android:padding="@dimen/activity_horizontal_margin"
             android:text="@string/about_us"
-            style="@style/TextAppearance.AppCompat.Subhead"
-            android:textColor="?android:textColorSecondary" />
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
 
         <TextView
             android:id="@+id/subTitleDetail"
