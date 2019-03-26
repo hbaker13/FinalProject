@@ -20,8 +20,8 @@ public class FFActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_funfact);
 
-        TextView sportsTitle = (TextView)findViewById(R.id.titleDetail);
-        ImageView sportsImage = (ImageView)findViewById(R.id.funfactImage);
+        TextView funfactTitle = (TextView)findViewById(R.id.titleDetail);
+        ImageView funfactImage = (ImageView)findViewById(R.id.funfactImage);
 
         Drawable drawable = ContextCompat.getDrawable
                 (this,getIntent().getIntExtra(FunFact.IMAGE_KEY, 0));
@@ -33,9 +33,9 @@ public class FFActivity extends AppCompatActivity {
             gradientDrawable.setSize(drawable.getIntrinsicWidth(), drawable.getIntrinsicHeight());
         }
 
-        sportsTitle.setText(getIntent().getStringExtra(FunFact.TITLE_KEY));
+        funfactTitle.setText(getIntent().getStringExtra(FunFact.TITLE_KEY));
 
         Glide.with(this).load(getIntent().getIntExtra(FunFact.IMAGE_KEY,0))
-                .placeholder(gradientDrawable).into(sportsImage);
+                .placeholder(gradientDrawable).into(funfactImage);
     }
 }

@@ -75,16 +75,16 @@ public class FunFactActivity extends AppCompatActivity {
     private void initializeData() {
         String[] funFactList = getResources().getStringArray(R.array.funfact_titles);
         String[] funFactInfo = getResources().getStringArray(R.array.funfact_info);
-        TypedArray sportsImageResources = getResources().obtainTypedArray(R.array.funfact_images);
+        TypedArray funfactImageResources = getResources().obtainTypedArray(R.array.funfact_images);
         mFunFactData.clear();
 
 
         for(int i=0; i<funFactList.length; i++){
             mFunFactData.add(new FunFact(funFactList[i], funFactInfo[i],
-                    sportsImageResources.getResourceId(i,0)));
+                    funfactImageResources.getResourceId(i,0)));
         }
 
-        sportsImageResources.recycle();
+        funfactImageResources.recycle();
 
         mAdapter.notifyDataSetChanged();
     }
