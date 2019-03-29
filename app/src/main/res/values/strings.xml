@@ -29,6 +29,55 @@
     <string name="what">    \"Two Twinks\" is a simple reminder app for the ones who usually spend hours playing gadgets, or the ones who want to keep their body fine while playing gadgets. This app contains the reminder of \"The Rule of 20\", the reminder to do the most important, but rarely done thing that is to drink and some simple exercises.</string>
     <string name="why">	    Why we do have to do those things, is because sometimes, when we are already busy with our gadgets doing god-knows-what, we\'ll forget about our eyes\' and bodys\' healthiness that will make us fell regretion later.</string>
     <string name="how">	    \"Rule of 20\" is a rule that\'s made by Prof. where gadgets player get a 20 secs. break after 20 mins. of playing gadgets by looking at an object in 20 feet or blinking their eyes for 20 times. For drinking reminder, the user will be notified to drink after every 2 hours. And for simple exercises, we\'ll notified you to also nod your head after every 2 hours to right and left and to do other stretching exercise for 10 minutes.</string>
+    <string name="bout_us"> We made \"Two Twinks\" for the ones who usually spend hours playing gadgets, or the ones who want to keep their body fine while playing gadgets.
+        \n\n
+        We inspirited from our headmaster, who always coding in 3 days and forget to do something else -except to pray, and also from our experiences\' and our friends\' experience too.
+	\n\n
+        \"Two Twinks\" is our final project for our program study in our school. We work together in this app, our team consists of four people, they are:
+\n\n\
+        \n\n
+        1. Inas Maritza
+	\n\n
+        The first leader who also the creators and the programmers of this application. Some of her account:
+        \n\n
+IG : @nasuul
+        \n\n
+Email: inasulm@gmail.com
+        \n\n
+GitHub: maritzul
+        \n\n
+        \n\n
+2. Maurisa A.T. Budiyono
+        \n\n
+	The second leader who also the illustrator and the programmers of this application. Some of her account:
+        \n\n
+IG: @Il_Dimenticato835
+        \n\n
+Email: azmi08305@gmail.com
+        \n\n
+GitHub: Risa835
+        \n\n
+        \n\n
+3. Khalifa A. Setia
+        \n\n
+	The member who also the additional resources and the programmers. Some of her account:
+        \n\n
+IG: @almairaaaz
+        \n\n
+Email: Khalifaalmaira106@gmail.com
+        \n\n
+GitHub: hbaker13
+        \n\n
+        \n\n
+4. Safira Rakhsanda
+        \n\n
+	Also the member who work in additional resource and the programmers.Some of her account:
+        \n\n
+IG: @saphirarararara._
+        \n\n
+Email: srakhsanda31@gmail.com
+        \n\n
+GitHub: SafiraRakhsanda</string>
 
     <string-array name="funfact_titles">
         <item>Eye Relaxing</item>
@@ -175,7 +224,7 @@ Don\'t forget to do these for 5 - 7 minutes every 2 - 3 hours to always ready fo
     </string-array>
 
     <string-array name="funfact_info">
-        <item>Here is some eye relaxing</item>
+        <item>Here is some eye relaxing tips</item>
         <item>Here is some drink fact</item>
         <item>Here is some desk exercises</item>
     </string-array>
@@ -183,6 +232,6 @@ Don\'t forget to do these for 5 - 7 minutes every 2 - 3 hours to always ready fo
     <array name="funfact_images">
         <item>@drawable/eye_image</item>
         <item>@drawable/drink_image</item>
-        <item>@drawable/</item>
+        <item>@drawable/exer_image</item>
     </array>
 </resources>

@@ -14,8 +14,8 @@
             android:id="@+id/uus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/us_pict"
-            android:adjustViewBounds="true" />
+            android:adjustViewBounds="true"
+            android:src="@drawable/us_pict" />
 
         <TextView
             android:id="@+id/titleDetail"
@@ -27,13 +27,21 @@
             android:text="@string/about_us"
             android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
 
-        <TextView
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleDetail">
+
+            <TextView
             android:id="@+id/subTitleDetail"
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/titleDetail"
             android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/filler" />
+            android:text="@string/bout_us" />
+
+        </ScrollView>
+
     </RelativeLayout>
 </LinearLayout>
