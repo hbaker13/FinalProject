@@ -48,7 +48,7 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".RuleOf20Activity"
+            android:name=".RulesOf20Activity"
             android:parentActivityName=".StartActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
