@@ -23,7 +23,7 @@ class FunFact {
     String getTitle() {
         return title;
     }
-    
+
     String getInfo() {
         return info;
     }
