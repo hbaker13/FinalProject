@@ -183,6 +183,6 @@ Don\'t forget to do these for 5 - 7 minutes every 2 - 3 hours to always ready fo
     <array name="funfact_images">
         <item>@drawable/eye_image</item>
         <item>@drawable/drink_image</item>
-        <item>@drawable/exer_image</item>
+        <item>@drawable/</item>
     </array>
 </resources>
