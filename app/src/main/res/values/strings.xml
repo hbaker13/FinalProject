@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">Two Twinks</string>
-    <string name="title_placeholder">Title</string>
     <string name="funfact_label">Fun Fact</string>
-    <string name="funfact_info_placeholder">Here is some funfact</string>
-    <string name="funfact_image">Fun Fact Image</string>
     <string name="filler">Lorem Ipsum</string>
     <string name="about_us">About Us</string>
     <string name="night_mode">Night Mode</string>
@@ -79,63 +76,49 @@ Email: srakhsanda31@gmail.com
         \n\n
 GitHub: SafiraRakhsanda</string>
 
-    <string-array name="funfact_titles">
-        <item>Eye Relaxing</item>
-        <item>Drink Fact</item>
-        <item>Desk Exercise</item>
-    </string-array>
+        <string name="funfact_titles1">Eye Relaxing</string>
+        <string name="funfact_titles2">Drink Fact</string>
+        <string name="funfact_titles3">Desk Exercises</string>
 
-    <string-array name="funfact_filler_text">
-        <item>10 Simple and Relaxing Exercises for Your Eyes and Give You Great Eyesight
-	            \n \n
+        <string name="funfact_filler_text1">10 Simple and Relaxing Exercises for Your Eyes and Give You Great Eyesight
             \n \n
 Endless hours sat in front of a computer or a TV can be really bad for your eyes. Dryness, itchiness, headaches. Unfortunately, not all of us can afford to regularly go offline for a much needed break. And deliberately exercising your eyes can help immeasurably to maintain great vision. Here are ten such exercises which will take you no more than ten minutes to do.
-            \n \n
             \n \n
 1. Blink for 2 minutes.
 	            \n \n
 This exercise helps to regulate blood circulation inside your eyes.
             \n \n
-            \n \n
 2. Rotate your head in a circular motion while staring ahead.
 	            \n \n
 First right to left, then up to down. This increase the blood circulation in your eyes.
-            \n \n
             \n \n
 3. Look to your right then slowly move your gaze left.
 	            \n \n
 Then do the same thing with the opposite direction.
             \n \n
-            \n \n
 4. Close your eyes and relax.
 	            \n \n
 Darkness is believed to help strengthen the photoreceptor cells in your eyes, which in turn can help maintain clear vision.
-            \n \n
             \n \n
 5. Move your gaze in various different directions.
 	            \n \n
 Side to side, up and down, moving it diagonally, rolling it in a circle, and draw an eight figure.
             \n \n
-            \n \n
 6. Close your eyes tight for 3 - 5 seconds, then open them.
 	            \n \n
 Repeat it 7 times. This helps to relax your eye muscles and increases blood circulation to your eyes.
-            \n \n
             \n \n
 7. Lightly push against your temples with your fingers.
 	            \n \n
 Maintain this pressure for around 2 seconds. Repeat 4 - 5 times. This improves the flow of interocular fluid.
             \n \n
-            \n \n
 8. Keeping your eyes open, and draw simple geometric figures with your gaze.
 	            \n \n
 Then move on to more complicated shapes.
             \n \n
-            \n \n
 9.Close your eyes and slowly move your eyeballs up and down.
 	            \n \n
 Repeat for 5 - 10 times.
-            \n \n
             \n \n
 10.Strengthen your eyes\' near and far focusing.
             \n \n
@@ -146,8 +129,8 @@ Repeat for 5 - 10 times.
 -	After 10 - 15 seconds, refocus on your thumb.
                         \n \n
 -	Practice it 5 times.
-</item>
-        <item>What Happened If You Drink More Water?
+        </string>
+        <string name="funfact_filler_text2">What Happened If You Drink More Water?
             \n \n
 1. You Lose Weight Faster
             \n \n
@@ -184,9 +167,8 @@ Repeat for 5 - 10 times.
 9. And, of Course, You\'ll Save A Lot of Money.
             \n \n
 	The price of water is much lower than that of other drinks - think about it.
-</item>
-        <item>7 Minutes Exercises if You are a Desk Jobbers.
-\n \n
+</string>
+        <string name="funfact_filler_text3">7 Minutes Exercises if You are a Desk Jobbers.
             \n \n
 1. To Relieve Eye Fatigue
 \n \n
@@ -194,18 +176,15 @@ Repeat for 5 - 10 times.
 \n \n
 -	Glance to the side and blink 2 times, repeat it 8 - 10 times
 \n \n
-\n \n
 2. Head Bends
 \n \n
 -	To right and left 4 - 6 times
 \n \n
 -	Forward and backward 4 - 6 times
 \n \n
-\n \n
 3. Finger Massage
 \n \n
 -	Vigorously massage the tips of your fingers, to improve blood flow.
-\n \n
 \n \n
 4. Stretching
 \n \n
@@ -220,18 +199,8 @@ Repeat for 5 - 10 times.
 -	Flex and point toes 8 - 10 times, it removes tension in your legs
 \n \n
 Don\'t forget to do these for 5 - 7 minutes every 2 - 3 hours to always ready for new challenges!
-</item>
-    </string-array>
-
-    <string-array name="funfact_info">
-        <item>Here is some eye relaxing tips</item>
-        <item>Here is some drink fact</item>
-        <item>Here is some desk exercises</item>
-    </string-array>
-
-    <array name="funfact_images">
-        <item>@drawable/eye_image</item>
-        <item>@drawable/drink_image</item>
-        <item>@drawable/exer_image</item>
-    </array>
+</string>
+        <string name="funfact_info_placeholder1">10 Simple and Relaxing Exercises for Your Eyes and Give You Great Eyesight</string>
+        <string name="funfact_info_placeholder2">What Happened If You Drink More Water?</string>
+        <string name="funfact_info_placeholder3">7 Minutes Exercises if You are a Desk Jobbers.</string>
 </resources>

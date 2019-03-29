@@ -1,41 +1,32 @@
 package com.example.finalproject;
 
-import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
 
-import androidx.annotation.DrawableRes;
+import androidx.appcompat.app.AppCompatActivity;
 
-class FunFact {
+public class FunFact extends AppCompatActivity {
 
-    private final String title;
-    private final String info;
-    private final int imageResource;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_funfact);
 
-    static final String TITLE_KEY = "Title";
-    static final String IMAGE_KEY = "Image Resource";
-
-    FunFact(String title, String info, int imageResource) {
-        this.title = title;
-        this.info = info;
-        this.imageResource = imageResource;
     }
 
-    String getTitle() {
-        return title;
+    public void toFFActivity(View view) {
+        Intent i = new Intent(FunFact.this, FFActivity.class);
+        startActivity(i);
     }
 
-    String getInfo() {
-        return info;
+    public void toFFActivity1(View view) {
+        Intent i1 = new Intent(FunFact.this, FFActivity1.class);
+        startActivity(i1);
     }
 
-    int getImageResource() {
-        return imageResource;
-    }
+    public void toFFActivity2 (View view) {
+        Intent i2 = new Intent(FunFact.this, FFActivity2.class);
+        startActivity(i2);    }
 
-    static Intent starter(Context context, String title, @DrawableRes int imageResId) {
-        Intent detailIntent = new Intent(context, FFActivity.class);
-        detailIntent.putExtra(TITLE_KEY, title);
-        detailIntent.putExtra(IMAGE_KEY, imageResId);
-        return detailIntent;
-    }
 }
