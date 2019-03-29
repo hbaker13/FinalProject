@@ -13,9 +13,6 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExerciseActivity"></activity>
-        <activity android:name=".DrinkActivity" />
-        <activity android:name=".RuleOf20Activity" />
         <activity
             android:name=".SplashScreen"
             android:label="@string/app_name"
@@ -51,28 +48,28 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".BacksoundActivity"
+            android:name=".RuleOf20Activity"
             android:parentActivityName=".StartActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".SetTimeActivity"
+            android:name=".DrinkActivity"
             android:parentActivityName=".StartActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".NotificationActivity"
+            android:name=".ExerciseActivity"
             android:parentActivityName=".StartActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".FunFactActivity"
+            android:name=".FunFact"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -80,10 +77,24 @@
         </activity>
         <activity
             android:name=".FFActivity"
-            android:parentActivityName=".FunFactActivity">
+            android:parentActivityName=".FunFact">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FunFactActivity" />
+                android:value=".FunFact" />
+        </activity>
+        <activity
+            android:name=".FFActivity1"
+            android:parentActivityName=".FunFact">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FunFact" />
+        </activity>
+        <activity
+            android:name=".FFActivity2"
+            android:parentActivityName=".FunFact">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FunFact" />
         </activity>
     </application>
 

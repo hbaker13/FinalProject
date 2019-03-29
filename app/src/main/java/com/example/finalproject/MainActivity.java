@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void showFunFact(View view) {
-        Intent iff = new Intent(this, FunFactActivity.class);
+        Intent iff = new Intent(this, FunFact.class);
         startActivity(iff);
     }
 }
