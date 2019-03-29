@@ -11,9 +11,9 @@
     <string name="what_name">What is This?</string>
     <string name="start_name">Let\'s Start!</string>
     <string name="ff_name">Fun Facts!</string>
-    <string name="what_intro">What Application is This?</string>
-    <string name="why_intro">Why We Made This Application?</string>
-    <string name="how_intro">How to Use This Application?</string>
+    <string name="what_intro">What?</string>
+    <string name="why_intro">Why?</string>
+    <string name="how_intro">How?</string>
     <string name="start_intro">Let\'s Start the Application!</string>
     <string name="ff_intro">Here is some Fun Facts!</string>
     <string name="menu1">Rules of 20</string>
@@ -26,17 +26,154 @@
     <string name="twenty">Rules Of 20</string>
     <string name="drink">Drink</string>
     <string name="exer">Simple Exercise</string>
+    <string name="what">    \"Two Twinks\" is a simple reminder app for the ones who usually spend hours playing gadgets, or the ones who want to keep their body fine while playing gadgets. This app contains the reminder of \"The Rule of 20\", the reminder to do the most important, but rarely done thing that is to drink and some simple exercises.</string>
+    <string name="why">	    Why we do have to do those things, is because sometimes, when we are already busy with our gadgets doing god-knows-what, we\'ll forget about our eyes\' and bodys\' healthiness that will make us fell regretion later.</string>
+    <string name="how">	    \"Rule of 20\" is a rule that\'s made by Prof. where gadgets player get a 20 secs. break after 20 mins. of playing gadgets by looking at an object in 20 feet or blinking their eyes for 20 times. For drinking reminder, the user will be notified to drink after every 2 hours. And for simple exercises, we\'ll notified you to also nod your head after every 2 hours to right and left and to do other stretching exercise for 10 minutes.</string>
+
+
 
     <string-array name="funfact_titles">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
+        <item>Eye</item>
+        <item>Drink</item>
+        <item>Desk Exercise</item>
     </string-array>
 
     <string-array name="funfact_filler_text">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
+        <item>10 Simple and Relaxing Exercises for Your Eyes and Give You Great Eyesight
+	            \n \n
+            \n \n
+Endless hours sat in front of a computer or a TV can be really bad for your eyes. Dryness, itchiness, headaches. Unfortunately, not all of us can afford to regularly go offline for a much needed break. And deliberately exercising your eyes can help immeasurably to maintain great vision. Here are ten such exercises which will take you no more than ten minutes to do.
+            \n \n
+            \n \n
+1. Blink for 2 minutes.
+	            \n \n
+This exercise helps to regulate blood circulation inside your eyes.
+            \n \n
+            \n \n
+2. Rotate your head in a circular motion while staring ahead.
+	            \n \n
+First right to left, then up to down. This increase the blood circulation in your eyes.
+            \n \n
+            \n \n
+3. Look to your right then slowly move your gaze left.
+	            \n \n
+Then do the same thing with the opposite direction.
+            \n \n
+            \n \n
+4. Close your eyes and relax.
+	            \n \n
+Darkness is believed to help strengthen the photoreceptor cells in your eyes, which in turn can help maintain clear vision.
+            \n \n
+            \n \n
+5. Move your gaze in various different directions.
+	            \n \n
+Side to side, up and down, moving it diagonally, rolling it in a circle, and draw an eight figure.
+            \n \n
+            \n \n
+6. Close your eyes tight for 3 - 5 seconds, then open them.
+	            \n \n
+Repeat it 7 times. This helps to relax your eye muscles and increases blood circulation to your eyes.
+            \n \n
+            \n \n
+7. Lightly push against your temples with your fingers.
+	            \n \n
+Maintain this pressure for around 2 seconds. Repeat 4 - 5 times. This improves the flow of interocular fluid.
+            \n \n
+            \n \n
+8. Keeping your eyes open, and draw simple geometric figures with your gaze.
+	            \n \n
+Then move on to more complicated shapes.
+            \n \n
+            \n \n
+9.Close your eyes and slowly move your eyeballs up and down.
+	            \n \n
+Repeat for 5 - 10 times.
+            \n \n
+            \n \n
+10.Strengthen your eyes\' near and far focusing.
+            \n \n
+-	Place your thumbs about 10 inches in front of your face and focus on it, also on an object that is 5 to 10 feet away for 10 - 15 seconds.
+                        \n \n
+-	Then, focus on an object that is 10 - 20 feet in front of you without moving your head. Focus on it for 10 - 15 seconds.
+                        \n \n
+-	After 10 - 15 seconds, refocus on your thumb.
+                        \n \n
+-	Practice it 5 times.
+</item>
+        <item>What Happened If You Drink More Water?
+            \n \n
+1. You Lose Weight Faster
+            \n \n
+	By drinking only water for 9 days, you lose the same amount of calories as when jogging for 8 km a day.
+            \n \n
+2. You Speed Up Your Metabolism, Raising Your Energy Levels.
+            \n \n
+	Just 17  fl. oz water in the morning increase your metabolism by 24 percent.
+            \n \n
+3. You Eat Less.
+            \n \n
+	Water suppresses appetite, which helps you lose weight.
+            \n \n
+4. Your Skin Becomes Softer and Cleaner.
+            \n \n
+	Water clears and moistens the skin.
+            \n \n
+5. Your Body Excretes Toxins Faster.
+            \n \n
+	Water washes out harmful substances, preventing aging.
+            \n \n
+6. Your Brain Works Better.
+            \n \n
+	The brain is 75-85 percent water, so by drinking you fuel it, which helps you concentrate.
+            \n \n
+7. Your Heart Works Better.
+            \n \n
+	5 glasses of water a day lowers the risk of heart attack by 41 percent
+            \n \n
+8. Water Lower the Risk of Many Diseases.
+            \n \n
+	Such as hypertension, bladder conditions, and even bowel cancer.
+            \n \n
+9. And, of Course, You\'ll Save A Lot of Money.
+            \n \n
+	The price of water is much lower than that of other drinks - think about it.
+</item>
+        <item>7 Minutes Exercises if You are a Desk Jobbers.
+\n \n
+            \n \n
+1. To Relieve Eye Fatigue
+\n \n
+-	Blink your eyes for 10 times
+\n \n
+-	Glance to the side and blink 2 times, repeat it 8 - 10 times
+\n \n
+\n \n
+2. Head Bends
+\n \n
+-	To right and left 4 - 6 times
+\n \n
+-	Forward and backward 4 - 6 times
+\n \n
+\n \n
+3. Finger Massage
+\n \n
+-	Vigorously massage the tips of your fingers, to improve blood flow.
+\n \n
+\n \n
+4. Stretching
+\n \n
+-	Stretching 5 times
+\n \n
+-	Pectoral Muscle Stretches 4 - 5 times
+\n \n
+-	\"Cat\" Pose 3 times
+\n \n
+-	Crunches on the exhale 2 times to each side
+\n \n
+-	Flex and point toes 8 - 10 times, it removes tension in your legs
+\n \n
+Don\'t forget to do these for 5 - 7 minutes every 2 - 3 hours to always ready for new challenges!
+</item>
     </string-array>
 
     <string-array name="funfact_info">

@@ -1,104 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.finalproject.WhatActivity"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:id="@+id/What"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/titleWhat"
-            style="@style/TextAppearance.AppCompat.Headline"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/what_intro"
-            android:textColor="?android:textColorSecondary" />
-
-
-        <ScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/titleWhat">
-        <TextView
-            android:id="@+id/subTitleWhat"
-            style="@style/TextAppearance.AppCompat.Subhead"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/titleDetail"
-            android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/filler" />
-        </ScrollView>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/Why"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/subTitleWhat">
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/titleWhy"
-            style="@style/TextAppearance.AppCompat.Headline"
-            android:layout_width="wrap_content"
+        <include
+            android:id="@+id/What"
+            layout="@layout/what"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/Why"
+            layout="@layout/why"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/subTitleWhat"
-            android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/why_intro"
-            android:textColor="?android:textColorSecondary"
-            tools:ignore="NotSibling" />
+            android:layout_toEndOf="@id/What"
+            tools:ignore="RtlCompat" />
 
-
-        <ScrollView
-            android:layout_width="wrap_content"
+        <include
+            android:id="@+id/How"
+            layout="@layout/how"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/titleWhy">
-            <TextView
-                android:id="@+id/subTitleWhy"
-                style="@style/TextAppearance.AppCompat.Subhead"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/titleWhy"
-                android:padding="@dimen/activity_horizontal_margin"
-                android:text="@string/filler" />
-        </ScrollView>
-    </RelativeLayout>
+            android:layout_toEndOf="@id/Why"
+            tools:ignore="RtlCompat" />
 
-    <RelativeLayout
-        android:id="@+id/How"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    </LinearLayout>
 
-        <TextView
-            android:id="@+id/titleHow"
-            style="@style/TextAppearance.AppCompat.Headline"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/subTitleWhy"
-            android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/how_intro"
-            android:textColor="?android:textColorSecondary"
-            tools:ignore="NotSibling" />
-
-
-        <ScrollView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/titleHow">
-            <TextView
-                android:id="@+id/subTitleHow"
-                style="@style/TextAppearance.AppCompat.Subhead"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/titleHow"
-                android:padding="@dimen/activity_horizontal_margin"
-                android:text="@string/filler" />
-        </ScrollView>
-    </RelativeLayout>
-</LinearLayout>
+</ScrollView>

@@ -20,6 +20,7 @@ public class FFActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_funfact);
 
+        TextView funfactFiller = (TextView)findViewById(R.id.subTitleDetail);
         TextView funfactTitle = (TextView)findViewById(R.id.titleDetail);
         ImageView funfactImage = (ImageView)findViewById(R.id.funfactImage);
 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            android:id="@+id/titleHow"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/subTitleWhy"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="@string/how_intro"
+            android:textColor="?android:textColorSecondary"
+            tools:ignore="NotSibling" />
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleHow">
+            <TextView
+                android:id="@+id/subTitleHow"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleHow"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:text="@string/how" />
+        </ScrollView>
+
+</RelativeLayout>
