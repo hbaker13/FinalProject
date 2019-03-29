@@ -30,11 +30,9 @@
     <string name="why">	    Why we do have to do those things, is because sometimes, when we are already busy with our gadgets doing god-knows-what, we\'ll forget about our eyes\' and bodys\' healthiness that will make us fell regretion later.</string>
     <string name="how">	    \"Rule of 20\" is a rule that\'s made by Prof. where gadgets player get a 20 secs. break after 20 mins. of playing gadgets by looking at an object in 20 feet or blinking their eyes for 20 times. For drinking reminder, the user will be notified to drink after every 2 hours. And for simple exercises, we\'ll notified you to also nod your head after every 2 hours to right and left and to do other stretching exercise for 10 minutes.</string>
 
-
-
     <string-array name="funfact_titles">
-        <item>Eye</item>
-        <item>Drink</item>
+        <item>Eye Relaxing</item>
+        <item>Drink Fact</item>
         <item>Desk Exercise</item>
     </string-array>
 
@@ -177,9 +175,9 @@ Don\'t forget to do these for 5 - 7 minutes every 2 - 3 hours to always ready fo
     </string-array>
 
     <string-array name="funfact_info">
-        <item>#1</item>
-        <item>#2</item>
-        <item>#3</item>
+        <item>Here is some eye relaxing</item>
+        <item>Here is some drink fact</item>
+        <item>Here is some desk exercises</item>
     </string-array>
 
     <array name="funfact_images">
