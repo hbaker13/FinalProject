@@ -12,21 +12,20 @@ public class FunFact extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_funfact);
-
     }
 
-    public void toFFActivity(View view) {
-        Intent i = new Intent(FunFact.this, FFActivity.class);
-        startActivity(i);
+    public void showFF(View view) {
+        Intent Iff = new Intent(this, FFActivity.class);
+        startActivity(Iff);
     }
 
-    public void toFFActivity1(View view) {
-        Intent i1 = new Intent(FunFact.this, FFActivity1.class);
-        startActivity(i1);
+    public void showFF1(View view) {
+        Intent Iff1 = new Intent(this, FFActivity1.class);
+        startActivity(Iff1);
     }
 
-    public void toFFActivity2 (View view) {
-        Intent i2 = new Intent(FunFact.this, FFActivity2.class);
-        startActivity(i2);    }
-
+    public void showFF2(View view) {
+        Intent Iff2 = new Intent(this, FFActivity2.class);
+        startActivity(Iff2);
+    }
 }

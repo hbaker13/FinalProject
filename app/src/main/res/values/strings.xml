@@ -50,9 +50,9 @@ GitHub: maritzul
         \n\n
 IG: @Il_Dimenticato835
         \n\n
-Email: azmi08305@gmail.com
+Email: riyu08305@gmail.com
         \n\n
-GitHub: Risa835
+GitHub: Riyu835
         \n\n
         \n\n
 3. Maira
@@ -76,11 +76,11 @@ Email: srakhsanda31@gmail.com
         \n\n
 GitHub: SafiraRakhsanda</string>
 
-        <string name="funfact_titles1">Eye Relaxing</string>
-        <string name="funfact_titles2">Drink Fact</string>
-        <string name="funfact_titles3">Desk Exercises</string>
+    <string name="funfact_titles1">Eye Relaxing</string>
+    <string name="funfact_titles2">Drink Fact</string>
+    <string name="funfact_titles3">Desk Exercises</string>
 
-        <string name="funfact_filler_text1">10 Simple and Relaxing Exercises for Your Eyes and Give You Great Eyesight
+    <string name="funfact_filler_text1">10 Simple and Relaxing Exercises for Your Eyes and Give You Great Eyesight
             \n \n
 Endless hours sat in front of a computer or a TV can be really bad for your eyes. Dryness, itchiness, headaches. Unfortunately, not all of us can afford to regularly go offline for a much needed break. And deliberately exercising your eyes can help immeasurably to maintain great vision. Here are ten such exercises which will take you no more than ten minutes to do.
             \n \n
@@ -130,7 +130,7 @@ Repeat for 5 - 10 times.
                         \n \n
 -	Practice it 5 times.
         </string>
-        <string name="funfact_filler_text2">What Happened If You Drink More Water?
+    <string name="funfact_filler_text2">What Happened If You Drink More Water?
             \n \n
 1. You Lose Weight Faster
             \n \n
@@ -168,7 +168,7 @@ Repeat for 5 - 10 times.
             \n \n
 	The price of water is much lower than that of other drinks - think about it.
 </string>
-        <string name="funfact_filler_text3">7 Minutes Exercises if You are a Desk Jobbers.
+    <string name="funfact_filler_text3">7 Minutes Exercises if You are a Desk Jobbers.
             \n \n
 1. To Relieve Eye Fatigue
 \n \n
@@ -200,7 +200,7 @@ Repeat for 5 - 10 times.
 \n \n
 Don\'t forget to do these for 5 - 7 minutes every 2 - 3 hours to always ready for new challenges!
 </string>
-        <string name="funfact_info_placeholder1">10 Simple and Relaxing Exercises for Your Eyes and Give You Great Eyesight</string>
-        <string name="funfact_info_placeholder2">What Happened If You Drink More Water?</string>
-        <string name="funfact_info_placeholder3">7 Minutes Exercises if You are a Desk Jobbers.</string>
+    <string name="funfact_info_placeholder1">10 Simple and Relaxing Exercises for Your Eyes and Give You Great Eyesight</string>
+    <string name="funfact_info_placeholder2">What Happened If You Drink More Water?</string>
+    <string name="funfact_info_placeholder3">7 Minutes Exercises if You are a Desk Jobbers.</string>
 </resources>
