@@ -26,21 +26,13 @@
             android:padding="@dimen/activity_horizontal_margin"
             android:text="@string/funfact_titles3"
             android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
-        <TextView
-            android:id="@+id/newsTitleDetail"
-            style="@style/TextAppearance.AppCompat.Subhead"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/funfactImage"
-            android:padding="@dimen/activity_horizontal_margin"
-            android:text="@string/funfact_label"
-            android:textColor="?android:textColorSecondary" />
+
         <TextView
             android:id="@+id/subTitleDetail"
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/newsTitleDetail"
+            android:layout_below="@id/titleDetail"
             android:padding="@dimen/activity_horizontal_margin"
             android:text="@string/funfact_filler_text3" />
     </RelativeLayout>
