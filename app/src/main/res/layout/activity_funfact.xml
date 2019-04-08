@@ -19,7 +19,7 @@
             android:layout_height="144dp"
             android:layout_marginTop="0dp"
             android:contentDescription="@string/funfact_titles1"
-            android:src="@drawable/eye_image"
+            android:src="@drawable/eyeaye"
             android:padding="@dimen/padding_regular"
             android:onClick="showFF"/>
 
@@ -38,7 +38,7 @@
             android:layout_height="133dp"
             android:layout_below="@id/funfactImage1"
             android:contentDescription="@string/funfact_titles2"
-            android:src="@drawable/drink_image"
+            android:src="@drawable/drink_circle"
             android:padding="@dimen/padding_regular"
             android:onClick="showFF1"/>
 
