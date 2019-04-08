@@ -27,12 +27,20 @@
             android:text="@string/funfact_titles1"
             android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
 
+        <Button
+            android:text="Play Video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleDetail"
+            android:id="@+id/btnPlay"
+            android:onClick="playVideo" />
+
         <TextView
             android:id="@+id/subTitleDetail"
             style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/titleDetail"
+            android:layout_below="@id/btnPlay"
             android:padding="@dimen/activity_horizontal_margin"
             android:text="@string/funfact_filler_text1" />
     </RelativeLayout>
