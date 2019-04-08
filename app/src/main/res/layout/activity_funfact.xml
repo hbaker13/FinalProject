@@ -15,40 +15,20 @@
 
         <ImageView
             android:id="@+id/funfactImage1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:src="@drawable/ayesu"
+            android:layout_width="132dp"
+            android:layout_height="144dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/funfact_titles1"
+            android:src="@drawable/eyeeye"
             android:padding="@dimen/padding_regular"
             android:onClick="showFF"/>
 
         <TextView
-            android:id="@+id/title1"
-            style="@style/MenuTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@id/funfactImage1"
-            android:padding="@dimen/card_margin"
-            android:text="@string/funfact_titles1"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
-
-        <TextView
-            android:id="@+id/funfactTitle1"
-            style="@style/MenuDetailText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/funfactImage1"
-            android:padding="@dimen/card_margin"
-            android:text="@string/funfact_label"
-            android:textColor="?android:textColorSecondary" />
-
-        <TextView
             android:id="@+id/subTitle1"
-            style="@style/MenuDetailText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/funfactTitle1"
-            android:padding="@dimen/card_margin"
+            android:layout_toRightOf="@id/funfactImage1"
+            android:padding="@dimen/padding_wide"
             android:text="@string/funfact_info_placeholder1" />
 
         <ImageView
@@ -63,7 +43,6 @@
 
         <TextView
             android:id="@+id/subTitle2"
-            style="@style/MenuDetailText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/subTitle1"
@@ -83,7 +62,6 @@
 
         <TextView
             android:id="@+id/subTitle3"
-            style="@style/MenuDetailText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/subTitle2"
