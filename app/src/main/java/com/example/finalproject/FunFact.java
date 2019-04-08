@@ -9,23 +9,23 @@ import androidx.appcompat.app.AppCompatActivity;
 public class FunFact extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate (Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_funfact);
     }
 
-    public void showFF(View view) {
-        Intent Iff = new Intent(this, FFActivity.class);
-        startActivity(Iff);
+    public void showFF (View view){
+        Intent sf = new Intent(this, FFActivity.class);
+        startActivity(sf);
     }
 
-    public void showFF1(View view) {
-        Intent Iff1 = new Intent(this, FFActivity1.class);
-        startActivity(Iff1);
+    public void showFF1 (View view){
+        Intent sff = new Intent(this, FFActivity1.class);
+        startActivity(sff);
     }
 
-    public void showFF2(View view) {
-        Intent Iff2 = new Intent(this, FFActivity2.class);
-        startActivity(Iff2);
+    public void showFF2 (View view){
+        Intent sfff = new Intent(this, FFActivity2.class);
+        startActivity(sfff);
     }
 }

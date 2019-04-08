@@ -1,12 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    android:layout_margin="8dp">
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FunFact"
+    >
 
-    <include
-        layout="@layout/content_main1"/>
 
-</ScrollView>
+        <ImageView
+            android:id="@+id/funfactImage1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/eye_image"
+            android:onClick="showFF"/>
+
+        <TextView
+            android:id="@+id/title1"
+            style="@style/MenuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/funfactImage1"
+            android:padding="@dimen/card_margin"
+            android:text="@string/funfact_titles1"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+        <TextView
+            android:id="@+id/funfactTitle1"
+            style="@style/MenuDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/funfactImage1"
+            android:padding="@dimen/card_margin"
+            android:text="@string/funfact_label"
+            android:textColor="?android:textColorSecondary" />
+
+        <TextView
+            android:id="@+id/subTitle1"
+            style="@style/MenuDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/funfactTitle1"
+            android:padding="@dimen/card_margin"
+            android:text="@string/funfact_info_placeholder1" />
+
+        <ImageView
+            android:id="@+id/funfactImage2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subTitle1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/drink_image"
+            tools:ignore="NotSibling"
+            android:onClick="showFF1"/>
+
+        <TextView
+            android:id="@+id/title2"
+            style="@style/MenuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/funfactImage2"
+            android:padding="@dimen/card_margin"
+            android:text="@string/funfact_titles2"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+        <TextView
+            android:id="@+id/funfactTitle2"
+            style="@style/MenuDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/funfactImage2"
+            android:padding="@dimen/card_margin"
+            android:text="@string/funfact_label"
+            android:textColor="?android:textColorSecondary" />
+
+        <TextView
+            android:id="@+id/subTitle2"
+            style="@style/MenuDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/funfactTitle2"
+            android:padding="@dimen/card_margin"
+            android:text="@string/funfact_info_placeholder2" />
+
+        <ImageView
+            android:id="@+id/funfactImage3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subTitle2"
+            android:adjustViewBounds="true"
+            android:src="@drawable/exer_image"
+            tools:ignore="NotSibling"
+            android:onClick="showFF2"/>
+
+        <TextView
+            android:id="@+id/title3"
+            style="@style/MenuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/funfactImage3"
+            android:padding="@dimen/card_margin"
+            android:text="@string/funfact_titles3"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+        <TextView
+            android:id="@+id/funfactTitle3"
+            style="@style/MenuDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/funfactImage3"
+            android:padding="@dimen/card_margin"
+            android:text="@string/funfact_label"
+            android:textColor="?android:textColorSecondary" />
+
+        <TextView
+            android:id="@+id/subTitle3"
+            style="@style/MenuDetailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/funfactTitle3"
+            android:padding="@dimen/card_margin"
+            android:text="@string/funfact_info_placeholder3" />
+</RelativeLayout>
