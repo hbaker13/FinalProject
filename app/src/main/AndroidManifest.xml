@@ -5,7 +5,8 @@
 
     <dist:module dist:instant="true" />
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
         android:allowBackup="true"
@@ -97,6 +98,27 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".FunFact" />
+        </activity>
+        <activity
+            android:name=".Vid"
+            android:parentActivityName=".FFActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FFActivity"/>
+        </activity>
+        <activity
+            android:name=".Vid1"
+            android:parentActivityName=".FFActivity1">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FFActivity1"/>
+        </activity>
+        <activity
+            android:name=".Vid2"
+            android:parentActivityName=".FFActivity2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FFActivity2"/>
         </activity>
     </application>
 

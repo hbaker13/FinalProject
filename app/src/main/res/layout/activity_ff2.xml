@@ -27,6 +27,14 @@
             android:text="@string/funfact_titles3"
             android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
 
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleDetail"
+            android:text="@string/play_button"
+            android:onClick="showVid2"/>
+
         <TextView
             android:id="@+id/subTitleDetail"
             style="@style/TextAppearance.AppCompat.Subhead"
