@@ -12,18 +12,16 @@
     <list default="true" id="672d4951-0a94-45c4-a4a7-a2d69a3d4f2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Vid.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Vid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Vid1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Vid1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Vid2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Vid2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vid1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vid1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vid2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_vid2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ff1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ff1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ff2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ff2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_funfact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_funfact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,7 @@
           <entry key="mov" value="1" />
           <entry key="png" value="18" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="269" />
+          <entry key="xml" value="278" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -96,7 +94,7 @@
           <entry key="JAVA" value="156" />
           <entry key="Properties" value="3" />
           <entry key="SPI" value="1" />
-          <entry key="XML" value="269" />
+          <entry key="XML" value="278" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -106,7 +104,7 @@
           <entry key="java" value="5492" />
           <entry key="properties" value="1" />
           <entry key="txt" value="24" />
-          <entry key="xml" value="6510" />
+          <entry key="xml" value="6528" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -115,21 +113,34 @@
           <entry key="JAVA" value="5492" />
           <entry key="PLAIN_TEXT" value="48" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="6510" />
+          <entry key="XML" value="6528" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="81" column="38" lean-forward="true" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+            <state relative-caret-position="254">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+              <folding>
+                <element signature="e#1215#1238#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -156,7 +167,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/StartActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_rules_of20.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/what.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/why.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/how.xml" />
@@ -174,24 +184,18 @@
         <option value="P:/Library/react native preparation/android-studio/sources/android-28/android/graphics/BitmapFactory.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/integers.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/RulesOf20Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/FunFact.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_funfact.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/vid.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/vid.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ff.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/FFActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ff1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/FFActivity1.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ff2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/FFActivity2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/MusicService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/MediaController.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/MusicController.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/vid_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/vid_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Vid.java" />
@@ -200,6 +204,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_vid2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Vid1.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Vid2.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ff1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ff2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_funfact.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
       </list>
     </option>
   </component>
@@ -254,6 +265,12 @@
               <item name="FinalProject" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="FinalProject" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -539,14 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/drink_circle.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -562,14 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/how.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -577,37 +578,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_funfact.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-          <folding>
-            <element signature="e#564#604#0" expanded="true" />
-            <element signature="e#885#910#0" expanded="true" />
-            <element signature="e#917#941#0" expanded="true" />
-            <element signature="e#1263#1284#0" expanded="true" />
-            <element signature="e#1361#1396#0" expanded="true" />
-            <element signature="e#2414#2439#0" expanded="true" />
-            <element signature="e#2446#2470#0" expanded="true" />
-            <element signature="e#2903#2924#0" expanded="true" />
-            <element signature="e#2950#2985#0" expanded="true" />
-            <element signature="e#4005#4030#0" expanded="true" />
-            <element signature="e#3995#4019#0" expanded="true" />
-            <element signature="e#4486#4507#0" expanded="true" />
-            <element signature="e#4533#4568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/eyelis.png">
       <provider selected="true" editor-type-id="images" />
@@ -668,42 +638,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ff.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="45" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/finalproject/FFActivity1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ff1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="e#1345#1366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ff2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="e#1344#1365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/finalproject/FFActivity2.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -777,14 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_vid2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -854,10 +786,77 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="81" column="38" lean-forward="true" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+        <state relative-caret-position="254">
+          <caret line="136" column="12" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ff1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ff.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ff2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_funfact.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="e#1215#1238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
   </component>
   <component name="masterDetails">

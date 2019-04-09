@@ -28,6 +28,7 @@
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_normal"
         android:layout_toRightOf="@id/twentyyy"
+        android:onClick="showRulesOf20"
         android:text="@string/menu1"/>
 
     <Switch
@@ -55,6 +56,7 @@
         android:padding="@dimen/padding_normal"
         android:layout_below="@id/twentyyy"
         android:layout_toRightOf="@id/drinkyyy"
+        android:onClick="showDrink"
         android:text="@string/menu2"/>
 
     <Switch
@@ -82,6 +84,7 @@
         android:padding="@dimen/padding_normal"
         android:layout_below="@id/drinkyyy"
         android:layout_toRightOf="@id/exercise"
+        android:onClick="showExercise"
         android:text="@string/menu3"/>
 
     <Switch

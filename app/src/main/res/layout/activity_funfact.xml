@@ -25,6 +25,7 @@
 
         <TextView
             android:id="@+id/subTitle1"
+            android:onClick="showFF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/funfactImage1"
@@ -45,6 +46,7 @@
             android:id="@+id/subTitle2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="showFF1"
             android:layout_below="@id/subTitle1"
             android:layout_toRightOf="@id/funfactImage2"
             android:padding="@dimen/padding_wide"
@@ -64,6 +66,7 @@
             android:id="@+id/subTitle3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="showFF2"
             android:layout_below="@id/subTitle2"
             android:layout_toRightOf="@id/funfactImage3"
             android:padding="@dimen/padding_wide"

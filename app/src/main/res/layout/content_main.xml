@@ -26,6 +26,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="showWhat"
         android:padding="@dimen/padding_wide"
         android:layout_toRightOf="@id/what"
         android:text="@string/what_name"/>
@@ -46,6 +47,7 @@
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_wide"
         android:layout_below="@id/what"
+        android:onClick="showStart"
         android:layout_toRightOf="@id/start"
         android:text="@string/start_name"/>
 
@@ -65,6 +67,7 @@
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_wide"
         android:layout_below="@id/start"
+        android:onClick="showFunFact"
         android:layout_toRightOf="@id/ff"
         android:text="@string/ff_name"/>
 </RelativeLayout>
