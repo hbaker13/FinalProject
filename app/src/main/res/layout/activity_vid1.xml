@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Vid">
+    tools:context="com.example.finalproject.Vid1">
 
     <VideoView
         android:layout_width="fill_parent"
