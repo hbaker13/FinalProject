@@ -1,45 +1,40 @@
 package com.example.finalproject;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageButton;
+import android.view.Menu;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 public class Vid extends Activity {
-    ImageButton start,pause,stop;
+
+    final MediaPlayer mp = new MediaPlayer();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vid);
 
-        start=(ImageButton)findViewById(R.id.button1);
-        pause=(ImageButton) findViewById(R.id.button2);
-        stop=(ImageButton) findViewById(R.id.button3);
-        final MediaPlayer mp=new MediaPlayer();
-        try{
-            mp.setDataSource("android.resource://" + getPackageName() + "/" + R.raw.greateyesight);
+        VideoView vid =(VideoView)findViewById(R.id.videoview);
 
-            mp.prepare();
-        }catch(Exception e){e.printStackTrace();}
+        MediaController vidCon = new MediaController(this);
+            vidCon.setAnchorView(vid);
 
-        start.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mp.start();
-            }
-        });
-        pause.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mp.pause();
-            }
-        });
-        stop.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mp.stop();
-            }
-        });
+        Uri video = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.greateyesight);
+
+        vid.setMediaController(vidCon);
+        vid.setVideoURI(video);
+        vid.requestFocus();
+        vid.start();
+    }
+
+    @SuppressLint("ResourceType")
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.layout.activity_vid, menu);
+        return true;
     }
 }

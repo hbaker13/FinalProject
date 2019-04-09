@@ -4,25 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Vid">
 
     <VideoView
-        android:id="@+id/vid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/subTitleDetail"
-        android:src="@raw/greateyesight"
-        android:scaleType="fitStart"/>
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/videoview"
+        android:layout_centerVertical="true"/>
 
     <ImageButton
         android:id="@+id/button1"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/vid"
-        android:layout_below="@+id/vid"
         android:layout_marginTop="48dp"
-        android:src="@drawable/ic_play_arrow_black" />
+        android:layout_toEndOf="@id/videoview"
+        android:contentDescription="@string/play_button"
+        android:src="@drawable/ic_play_arrow_black"
+        tools:ignore="RtlCompat" />
 
     <ImageButton
         android:id="@+id/button2"
@@ -31,6 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/button1"
         android:layout_toRightOf="@+id/button1"
+        android:contentDescription="@string/pause_btn"
         android:src="@drawable/ic_pause_black" />
 
     <ImageButton
@@ -40,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/button2"
         android:layout_toRightOf="@+id/button2"
+        android:contentDescription="@string/stop_btn"
         android:src="@drawable/ic_stop_black" />
-
 
 </RelativeLayout>
