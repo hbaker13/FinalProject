@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.finalproject.MainActivity"
+        android:label="Main Activity"
+        tools:layout="@layout/activity_main">
+
+        <action
+            android:id="@+id/action_mainFragment_to_usActivity"
+            app:destination="@id/usActivity" />
+        <action
+            android:id="@+id/action_mainFragment_to_startActivity"
+            app:destination="@id/startActivity" />
+        <action
+            android:id="@+id/action_mainFragment_to_whatActivity"
+            app:destination="@id/whatActivity" />
+        <action
+            android:id="@+id/action_mainFragment_to_funFact"
+            app:destination="@id/funFact" />
+    </fragment>
+    <activity
+        android:id="@+id/usActivity"
+        android:name="com.example.finalproject.UsActivity"
+        android:label="activity_us"
+        tools:layout="@layout/activity_us" />
+    <activity
+        android:id="@+id/whatActivity"
+        android:name="com.example.finalproject.WhatActivity"
+        android:label="activity_what"
+        tools:layout="@layout/activity_what" />
+    <fragment
+        android:id="@+id/startActivity"
+        android:name="com.example.finalproject.StartActivity"
+        android:label="activity_start"
+        tools:layout="@layout/activity_start" >
+        <action
+            android:id="@+id/action_startActivity_to_drinkActivity"
+            app:destination="@id/drinkActivity" />
+        <action
+            android:id="@+id/action_startActivity_to_rulesOf20Activity"
+            app:destination="@id/rulesOf20Activity" />
+        <action
+            android:id="@+id/action_startActivity_to_exerciseActivity"
+            app:destination="@id/exerciseActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/funFact"
+        android:name="com.example.finalproject.FunFact"
+        android:label="activity_funfact"
+        tools:layout="@layout/activity_funfact" >
+        <action
+            android:id="@+id/action_funFact_to_FFActivity"
+            app:destination="@id/FFActivity" />
+        <action
+            android:id="@+id/action_funFact_to_FFActivity1"
+            app:destination="@id/FFActivity1" />
+        <action
+            android:id="@+id/action_funFact_to_FFActivity2"
+            app:destination="@id/FFActivity2" />
+    </fragment>
+    <activity
+        android:id="@+id/drinkActivity"
+        android:name="com.example.finalproject.DrinkActivity"
+        android:label="activity_drink"
+        tools:layout="@layout/activity_drink" />
+    <activity
+        android:id="@+id/exerciseActivity"
+        android:name="com.example.finalproject.ExerciseActivity"
+        android:label="activity_exercise"
+        tools:layout="@layout/activity_exercise" />
+    <activity
+        android:id="@+id/rulesOf20Activity"
+        android:name="com.example.finalproject.RulesOf20Activity"
+        android:label="activity_rules_of20"
+        tools:layout="@layout/activity_rules_of20" />
+    <fragment
+        android:id="@+id/FFActivity"
+        android:name="com.example.finalproject.FFActivity"
+        android:label="activity_ff"
+        tools:layout="@layout/activity_ff" >
+        <action
+            android:id="@+id/action_FFActivity_to_vid4"
+            app:destination="@id/vid" />
+    </fragment>
+    <fragment
+        android:id="@+id/FFActivity1"
+        android:name="com.example.finalproject.FFActivity1"
+        android:label="activity_ff1"
+        tools:layout="@layout/activity_ff1" >
+        <action
+            android:id="@+id/action_FFActivity1_to_vid1"
+            app:destination="@id/vid1" />
+    </fragment>
+    <fragment
+        android:id="@+id/FFActivity2"
+        android:name="com.example.finalproject.FFActivity2"
+        android:label="activity_ff2"
+        tools:layout="@layout/activity_ff2" >
+        <action
+            android:id="@+id/action_FFActivity2_to_vid2"
+            app:destination="@id/vid2" />
+    </fragment>
+    <activity
+        android:id="@+id/vid"
+        android:name="com.example.finalproject.Vid"
+        android:label="activity_vid"
+        tools:layout="@layout/activity_vid" />
+    <activity
+        android:id="@+id/vid1"
+        android:name="com.example.finalproject.Vid1"
+        android:label="activity_vid1"
+        tools:layout="@layout/activity_vid1" />
+    <activity
+        android:id="@+id/vid2"
+        android:name="com.example.finalproject.Vid2"
+        android:label="activity_vid2"
+        tools:layout="@layout/activity_vid2" />
+
+</navigation>

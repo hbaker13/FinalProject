@@ -206,4 +206,7 @@ Don\'t forget to do these for 5 - 7 minutes every 2 - 3 hours to always ready fo
     <string name="play_button">Play Video</string>
     <string name="pause_btn">Pause Video</string>
     <string name="stop_btn">Stop Video</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
