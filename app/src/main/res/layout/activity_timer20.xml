@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Timer20">
+
+    <TextView
+        android:id="@+id/cDown_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:20"
+        android:textSize="60sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/buttonStartPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:layout_below="@id/cDown_text"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:layout_above="@id/cDown_text"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        tools:visibility="visible"/>
+
+</RelativeLayout>
