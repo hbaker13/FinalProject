@@ -138,6 +138,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".FFActivity2" />
         </activity>
+        <receiver android:name=".TestReceiver"
+            android:enabled="true"
+            android:exported="false"/>
     </application>
 
 </manifest>

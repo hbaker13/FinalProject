@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void showStart(View view) {
-        Intent is = new Intent(this, Test.class);
+        Intent is = new Intent(this, StartActivity.class);
         startActivity(is);
     }
 
