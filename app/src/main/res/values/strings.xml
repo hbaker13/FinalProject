@@ -209,4 +209,10 @@ Don\'t forget to do these for 5 - 7 minutes every 2 - 3 hours to always ready fo
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tmins_title">Hey, it\'s been 20 minutes!</string>
+    <string name="tmins_text">Time to have a break!</string>
+    <string name="drink_title">Hey, don\'t forget to have a drink!</string>
+    <string name="drink_text">You need to have 2 liters of water a day!</string>
+    <string name="exe_title">Hey, relax your muscles!</string>
+    <string name="exe_text">Let\'s do some exercises!</string>
 </resources>

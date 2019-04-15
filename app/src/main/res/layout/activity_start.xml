@@ -18,7 +18,6 @@
         android:layout_height="144dp"
         android:layout_marginTop="0dp"
         android:contentDescription="@string/menu1"
-        android:onClick="showRulesOf20"
         android:padding="@dimen/padding_regular"
         android:src="@drawable/twenty_circle" />
 
@@ -28,10 +27,10 @@
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_normal"
         android:layout_toRightOf="@id/twentyyy"
-        android:onClick="showRulesOf20"
         android:text="@string/menu1"/>
 
     <Switch
+        android:id="@+id/switch20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_normal"
@@ -45,7 +44,6 @@
         android:layout_below="@id/twentyyy"
         android:layout_marginTop="0dp"
         android:contentDescription="@string/menu2"
-        android:onClick="showDrink"
         android:padding="@dimen/padding_regular"
         android:src="@drawable/drink_circle" />
 
@@ -56,10 +54,10 @@
         android:padding="@dimen/padding_normal"
         android:layout_below="@id/twentyyy"
         android:layout_toRightOf="@id/drinkyyy"
-        android:onClick="showDrink"
         android:text="@string/menu2"/>
 
     <Switch
+        android:id="@+id/switchD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_normal"
@@ -73,7 +71,6 @@
         android:layout_below="@id/drinkyyy"
         android:layout_marginTop="-1dp"
         android:contentDescription="@string/menu3"
-        android:onClick="showExercise"
         android:padding="@dimen/padding_regular"
         android:src="@drawable/exer_circle" />
 
@@ -84,10 +81,10 @@
         android:padding="@dimen/padding_normal"
         android:layout_below="@id/drinkyyy"
         android:layout_toRightOf="@id/exercise"
-        android:onClick="showExercise"
         android:text="@string/menu3"/>
 
     <Switch
+        android:id="@+id/switchE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/padding_normal"
