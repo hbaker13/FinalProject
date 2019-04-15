@@ -1,6 +1,7 @@
 package com.example.finalproject;
 
 import android.content.Context;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Vibrator;
@@ -22,10 +23,14 @@ public class Timer20 extends AppCompatActivity {
     private boolean timerRunning;
     private long timeLeftInMillis = START_TIME_IN_MILLIS;
 
+    MediaPlayer mp;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timer20);
+
+        mp= MediaPlayer.create(this, R.raw.Soft_piano_music_piano_zen);
 
         cDownText = (TextView) findViewById(R.id.cDown_text);
         cDownButton = (Button) findViewById(R.id.buttonStartPause);
@@ -74,6 +79,7 @@ public class Timer20 extends AppCompatActivity {
         timerRunning = true;
         cDownButton.setText("PAUSE");
         cDownButton1.setVisibility(View.INVISIBLE);
+        mp.start();
     }
 
     private void pauseTimer() {
@@ -81,6 +87,7 @@ public class Timer20 extends AppCompatActivity {
         timerRunning = false;
         cDownButton.setText("START");
         cDownButton1.setVisibility(View.VISIBLE);
+        mp.pause();
     }
 
     private void resetTimer() {
@@ -89,6 +96,7 @@ public class Timer20 extends AppCompatActivity {
 
         cDownButton1.setVisibility(View.INVISIBLE);
         cDownButton.setVisibility(View.VISIBLE);
+        mp=MediaPlayer.create(this, R.raw.Soft_piano_music_piano_zen);
     }
 
     private void updateCountdownText() {
