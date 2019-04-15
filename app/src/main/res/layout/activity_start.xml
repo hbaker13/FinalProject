@@ -15,7 +15,7 @@
     <ImageView
         android:id="@+id/twentyyy"
         android:layout_width="132dp"
-        android:layout_height="144dp"
+        android:layout_height="132dp"
         android:layout_marginTop="0dp"
         android:contentDescription="@string/menu1"
         android:padding="@dimen/padding_regular"
@@ -39,8 +39,8 @@
 
     <ImageView
         android:id="@+id/drinkyyy"
-        android:layout_width="130dp"
-        android:layout_height="133dp"
+        android:layout_width="132dp"
+        android:layout_height="132dp"
         android:layout_below="@id/twentyyy"
         android:layout_marginTop="0dp"
         android:contentDescription="@string/menu2"
@@ -66,10 +66,10 @@
 
     <ImageView
         android:id="@+id/exercise"
-        android:layout_width="127dp"
-        android:layout_height="137dp"
+        android:layout_width="132dp"
+        android:layout_height="132dp"
         android:layout_below="@id/drinkyyy"
-        android:layout_marginTop="-1dp"
+        android:layout_marginTop="0dp"
         android:contentDescription="@string/menu3"
         android:padding="@dimen/padding_regular"
         android:src="@drawable/exer_circle" />

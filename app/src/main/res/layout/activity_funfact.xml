@@ -16,11 +16,11 @@
         <ImageView
             android:id="@+id/funfactImage1"
             android:layout_width="132dp"
-            android:layout_height="144dp"
+            android:layout_height="132dp"
             android:layout_marginTop="0dp"
             android:contentDescription="@string/funfact_titles1"
             android:src="@drawable/eyeeye"
-            android:padding="@dimen/padding_regular"
+            android:padding="10dp"
             android:onClick="showFF"/>
 
         <TextView
@@ -29,17 +29,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/funfactImage1"
-            android:padding="40dp"
+            android:padding="45dp"
             android:text="@string/funfact_info_placeholder1" />
 
         <ImageView
             android:id="@+id/funfactImage2"
-            android:layout_width="130dp"
-            android:layout_height="133dp"
+            android:layout_width="132dp"
+            android:layout_height="132dp"
             android:layout_below="@id/funfactImage1"
             android:contentDescription="@string/funfact_titles2"
             android:src="@drawable/drink_circle"
-            android:padding="@dimen/padding_regular"
+            android:padding="10dp"
             android:onClick="showFF1"/>
 
         <TextView
@@ -49,18 +49,18 @@
             android:onClick="showFF1"
             android:layout_below="@id/subTitle1"
             android:layout_toRightOf="@id/funfactImage2"
-            android:padding="50dp"
+            android:padding="45dp"
             android:text="@string/funfact_info_placeholder2" />
 
         <ImageView
             android:id="@+id/funfactImage3"
-            android:layout_width="127dp"
-            android:layout_height="137dp"
+            android:layout_width="132dp"
+            android:layout_height="132dp"
             android:layout_below="@id/funfactImage2"
             android:contentDescription="@string/funfact_titles3"
-            android:padding="@dimen/padding_regular"
-            android:src="@drawable/exer_image"
-            android:onClick="showFF2"/>
+            android:onClick="showFF2"
+            android:padding="10dp"
+            android:src="@drawable/exer_image" />
 
         <TextView
             android:id="@+id/subTitle3"
@@ -69,6 +69,6 @@
             android:onClick="showFF2"
             android:layout_below="@id/subTitle2"
             android:layout_toRightOf="@id/funfactImage3"
-            android:padding="50dp"
+            android:padding="45dp"
             android:text="@string/funfact_info_placeholder3" />
 </RelativeLayout>
