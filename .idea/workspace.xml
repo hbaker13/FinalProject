@@ -9,14 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="672d4951-0a94-45c4-a4a7-a2d69a3d4f2d" name="Default Changelist" comment="Navigation">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="672d4951-0a94-45c4-a4a7-a2d69a3d4f2d" name="Default Changelist" comment="Navigation" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +71,7 @@
           <entry key="class" value="1" />
           <entry key="gif" value="2" />
           <entry key="gradle" value="13" />
-          <entry key="java" value="200" />
+          <entry key="java" value="201" />
           <entry key="jpg" value="6" />
           <entry key="mov" value="1" />
           <entry key="png" value="18" />
@@ -92,7 +85,7 @@
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="13" />
           <entry key="Image" value="26" />
-          <entry key="JAVA" value="200" />
+          <entry key="JAVA" value="201" />
           <entry key="Properties" value="4" />
           <entry key="SPI" value="1" />
           <entry key="XML" value="364" />
@@ -102,7 +95,7 @@
         <counts>
           <entry key="dummy" value="24" />
           <entry key="gradle" value="146" />
-          <entry key="java" value="8386" />
+          <entry key="java" value="8450" />
           <entry key="properties" value="1" />
           <entry key="txt" value="36" />
           <entry key="xml" value="7470" />
@@ -111,7 +104,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="146" />
-          <entry key="JAVA" value="8386" />
+          <entry key="JAVA" value="8450" />
           <entry key="PLAIN_TEXT" value="60" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="7470" />
@@ -124,8 +117,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Timer20.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="51">
+              <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding>
                 <element signature="e#1046#1309#0" expanded="true" />
                 <element signature="e#1308#1309#0" expanded="true" />
@@ -218,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="55" />
     <option name="y" value="383" />
     <option name="width" value="1318" />
@@ -426,10 +419,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
+    <frame x="55" y="-8" width="1319" height="784" extended-state="7" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.32858273" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32858273" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -443,7 +436,7 @@
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.36817104" side_tool="true" weight="0.30640244" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Build" order="8" sideWeight="0.49564528" visible="true" weight="0.34603658" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49564528" visible="true" weight="0.34603658" />
       <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.3292683" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32858273" />
@@ -491,9 +484,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Menu!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/us_pict.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/how.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -816,10 +806,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://P:/Library/react native preparation/android-studio/sources/android-28/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="616" selection-start-line="616" selection-end-line="616" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Timer20.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="51">
+          <caret line="32" column="56" lean-forward="true" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
           <folding>
             <element signature="e#1046#1309#0" expanded="true" />
             <element signature="e#1308#1309#0" expanded="true" />
