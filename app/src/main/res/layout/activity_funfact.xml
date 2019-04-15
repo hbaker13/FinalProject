@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/funfactImage1"
-            android:padding="@dimen/padding_wide"
+            android:padding="40dp"
             android:text="@string/funfact_info_placeholder1" />
 
         <ImageView
@@ -49,7 +49,7 @@
             android:onClick="showFF1"
             android:layout_below="@id/subTitle1"
             android:layout_toRightOf="@id/funfactImage2"
-            android:padding="@dimen/padding_wide"
+            android:padding="50dp"
             android:text="@string/funfact_info_placeholder2" />
 
         <ImageView
@@ -69,6 +69,6 @@
             android:onClick="showFF2"
             android:layout_below="@id/subTitle2"
             android:layout_toRightOf="@id/funfactImage3"
-            android:padding="@dimen/padding_wide"
+            android:padding="50dp"
             android:text="@string/funfact_info_placeholder3" />
 </RelativeLayout>

@@ -30,7 +30,7 @@ public class Timer20 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timer20);
 
-        mp= MediaPlayer.create(this, R.raw.softpianomusicpianozen.mp3);
+        mp= MediaPlayer.create(this, R.raw.softpianomusiczen);
 
         cDownText = (TextView) findViewById(R.id.cDown_text);
         cDownButton = (Button) findViewById(R.id.buttonStartPause);
@@ -96,7 +96,7 @@ public class Timer20 extends AppCompatActivity {
 
         cDownButton1.setVisibility(View.INVISIBLE);
         cDownButton.setVisibility(View.VISIBLE);
-        mp=MediaPlayer.create(this, R.raw.Soft_piano_music_piano_zen);
+        mp=MediaPlayer.create(this, R.raw.softpianomusiczen);
     }
 
     private void updateCountdownText() {
