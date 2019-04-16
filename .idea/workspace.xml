@@ -2,7 +2,18 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <device id="pixel" />
+        <device id="Nexus 10" />
+        <device id="pixel_c" />
+        <device id="Nexus 7 2013" />
+        <device id="Nexus 7" />
+        <device id="pixel_2" />
+        <device id="Nexus 5X" />
+        <device id="pixel_xl" />
+        <device id="Nexus 6P" />
+        <device id="Nexus 6" />
+      </config>
     </shared>
   </component>
   <component name="AndroidLogFilters">
@@ -10,13 +21,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="672d4951-0a94-45c4-a4a7-a2d69a3d4f2d" name="Default Changelist" comment="Navigation">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/StartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/StartActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Timer20.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Timer20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_funfact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_funfact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +66,7 @@
     <session id="-2103714554">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.110" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -58,6 +76,7 @@
           <entry key="project.open.time.177" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -70,7 +89,7 @@
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.92" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,12 +98,12 @@
           <entry key="class" value="1" />
           <entry key="gif" value="2" />
           <entry key="gradle" value="13" />
-          <entry key="java" value="202" />
+          <entry key="java" value="203" />
           <entry key="jpg" value="6" />
           <entry key="mov" value="1" />
           <entry key="png" value="18" />
           <entry key="properties" value="4" />
-          <entry key="xml" value="367" />
+          <entry key="xml" value="374" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -93,69 +112,50 @@
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="13" />
           <entry key="Image" value="26" />
-          <entry key="JAVA" value="202" />
+          <entry key="JAVA" value="203" />
           <entry key="Properties" value="4" />
           <entry key="SPI" value="1" />
-          <entry key="XML" value="367" />
+          <entry key="XML" value="374" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
           <entry key="gradle" value="146" />
-          <entry key="java" value="8457" />
+          <entry key="java" value="8510" />
           <entry key="properties" value="1" />
           <entry key="txt" value="36" />
-          <entry key="xml" value="7544" />
+          <entry key="xml" value="7578" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="146" />
-          <entry key="JAVA" value="8457" />
+          <entry key="JAVA" value="8510" />
           <entry key="PLAIN_TEXT" value="60" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="7544" />
+          <entry key="XML" value="7578" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Timer20.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
-              <caret line="98" column="59" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
-              <folding>
-                <element signature="e#1046#1309#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
-                <element signature="e#1353#1499#0" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/finalproject/StartActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="276">
+              <caret line="133" selection-start-line="133" selection-end-line="133" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_funfact.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-              <folding>
-                <element signature="e#328#361#0" expanded="true" />
-                <element signature="e#2425#2450#0" expanded="true" />
-              </folding>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -201,7 +201,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/vid_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/vid_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ff2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_vid.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_vid1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
@@ -212,23 +211,24 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Vid2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Vid1.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_vid2.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Test.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/TestReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/StartActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_timer20.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Receiver20.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/ReceiverE.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/ReceiverD.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Timer20.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_funfact.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/finalproject/StartActivity.java" />
       </list>
     </option>
   </component>
@@ -269,17 +269,6 @@
             </path>
             <path>
               <item name="FinalProject" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="FinalProject" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="FinalProject" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
@@ -292,11 +281,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="tim&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/layout/activity_timer20.xml&#10;te&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/layout/activity_test.xml&#10;gradle.&#9;FILE&#9;file://C:/github/CRUD/FinalProject/gradle.properties&#10;bui&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/build.gradle&#10;n&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/navigation/nav_graph.xml&#10;main&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/java/com/example/finalproject/MainActivity.java&#10;man&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/AndroidManifest.xml&#10;ma&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/AndroidManifest.xml&#10;mani&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/AndroidManifest.xml&#10;Splas&#9;PSI&#9;JAVA://com.example.finalproject.SplashScreen&#10;gradle&#9;FILE&#9;file://C:/github/CRUD/FinalProject/gradle.properties&#10;string.&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/values/strings.xml&#10;build.gradle&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/build.gradle&#10;R&#9;PSI&#9;JAVA://android.R&#10;strings.&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/values/strings.xml&#10;colors.&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/values/colors.xml" />
+    <property name="SearchEverywhereHistoryKey" value="cont&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/layout/content_main.xml&#10;na&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/navigation/nav_graph.xml&#10;tim&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/layout/activity_timer20.xml&#10;te&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/layout/activity_test.xml&#10;gradle.&#9;FILE&#9;file://C:/github/CRUD/FinalProject/gradle.properties&#10;bui&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/build.gradle&#10;n&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/navigation/nav_graph.xml&#10;main&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/java/com/example/finalproject/MainActivity.java&#10;man&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/AndroidManifest.xml&#10;ma&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/AndroidManifest.xml&#10;mani&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/AndroidManifest.xml&#10;Splas&#9;PSI&#9;JAVA://com.example.finalproject.SplashScreen&#10;gradle&#9;FILE&#9;file://C:/github/CRUD/FinalProject/gradle.properties&#10;string.&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/values/strings.xml&#10;build.gradle&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/build.gradle&#10;R&#9;PSI&#9;JAVA://android.R&#10;strings.&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/values/strings.xml&#10;colors.&#9;FILE&#9;file://C:/github/CRUD/FinalProject/app/src/main/res/values/colors.xml" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="P:/Library/react native preparation/android-studio" />
-    <property name="device.picker.selection" value="Pixel_XL_API_28" />
+    <property name="device.picker.selection" value="G7AZGF0083755WX" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Start" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -436,31 +425,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1319" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32858273" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.32858273" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.63182896" visible="true" weight="0.4542683" />
+      <window_info active="true" anchor="bottom" id="Run" order="0" sideWeight="0.63024545" visible="true" weight="0.4192073" />
       <window_info anchor="bottom" id="Build Variants" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Logcat" order="2" weight="0.37195122" />
       <window_info anchor="bottom" id="TODO" order="3" sideWeight="0.4996041" weight="0.3292683" />
       <window_info anchor="bottom" id="Debug" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.3292683" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.36817104" side_tool="true" weight="0.30640244" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.36975455" side_tool="true" weight="0.4542683" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49564528" weight="0.34603658" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.5724466" weight="0.34603658" />
       <window_info anchor="bottom" id="Android Profiler" order="9" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.3292683" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32858273" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" weight="0.3293745" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.28978622" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.3064133" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="StringPreview" order="6" />
       <window_info anchor="right" id="Assistant" order="7" weight="0.32779098" />
@@ -500,18 +488,6 @@
     <MESSAGE value="Menu!" />
     <option name="LAST_COMMIT_MESSAGE" value="Menu!" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/finalproject/StartActivity.java</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/how.xml">
       <provider editor-type-id="android-designer2" />
@@ -546,14 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -657,39 +625,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="114" column="29" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_exercise.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_drink.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_exercise.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_drink.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_what.xml">
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -744,9 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="65" column="50" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,11 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#951#988#0" expanded="true" />
-            <element signature="e#1022#1058#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,11 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#954#993#0" expanded="true" />
-            <element signature="e#1027#1065#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,11 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#956#995#0" expanded="true" />
-            <element signature="e#1029#1067#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,14 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_timer20.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -824,35 +740,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Timer20.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="98" column="59" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
-          <folding>
-            <element signature="e#1046#1309#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1353#1499#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/finalproject/StartActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="-5">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/finalproject/Timer20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_funfact.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="e#328#361#0" expanded="true" />
-            <element signature="e#2425#2450#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="197">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/finalproject/StartActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
         </state>
       </provider>
     </entry>

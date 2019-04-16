@@ -16,7 +16,7 @@ public class StartActivity extends AppCompatActivity {
 
     private Switch aSwitch1, aSwitch2, aSwitch3;
 
-    private int NOTIF_ID[] = {1, 2, 3};
+    private int NOTIF_ID;
 
     private NotificationManager notificationManager;
 
@@ -36,7 +36,7 @@ public class StartActivity extends AppCompatActivity {
 
         aSwitch1.setChecked(alarmUp20);
 
-        final PendingIntent notifyPendingIntent20 = PendingIntent.getBroadcast(this, NOTIF_ID[1], notifyIntent20, PendingIntent.FLAG_UPDATE_CURRENT);
+        final PendingIntent notifyPendingIntent20 = PendingIntent.getBroadcast(this, NOTIF_ID, notifyIntent20, PendingIntent.FLAG_UPDATE_CURRENT);
 
         aSwitch1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -70,7 +70,7 @@ public class StartActivity extends AppCompatActivity {
 
         aSwitch2.setChecked(alarmUpD);
 
-        final PendingIntent notifyPendingIntentD = PendingIntent.getBroadcast(this, NOTIF_ID[2], notifyIntentD, PendingIntent.FLAG_UPDATE_CURRENT);
+        final PendingIntent notifyPendingIntentD = PendingIntent.getBroadcast(this, NOTIF_ID, notifyIntentD, PendingIntent.FLAG_UPDATE_CURRENT);
 
         aSwitch2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -104,7 +104,7 @@ public class StartActivity extends AppCompatActivity {
 
         aSwitch3.setChecked(alarmUpE);
 
-        final PendingIntent notifyPendingIntentE = PendingIntent.getBroadcast(this, NOTIF_ID[3], notifyIntentE, PendingIntent.FLAG_UPDATE_CURRENT);
+        final PendingIntent notifyPendingIntentE = PendingIntent.getBroadcast(this, NOTIF_ID, notifyIntentE, PendingIntent.FLAG_UPDATE_CURRENT);
 
         aSwitch3.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override

@@ -38,17 +38,7 @@
         android:id="@+id/startActivity"
         android:name="com.example.finalproject.StartActivity"
         android:label="activity_start"
-        tools:layout="@layout/activity_start" >
-        <action
-            android:id="@+id/action_startActivity_to_drinkActivity"
-            app:destination="@id/drinkActivity" />
-        <action
-            android:id="@+id/action_startActivity_to_rulesOf20Activity"
-            app:destination="@id/rulesOf20Activity" />
-        <action
-            android:id="@+id/action_startActivity_to_exerciseActivity"
-            app:destination="@id/exerciseActivity" />
-    </fragment>
+        tools:layout="@layout/activity_start" />
     <fragment
         android:id="@+id/funFact"
         android:name="com.example.finalproject.FunFact"
@@ -64,21 +54,6 @@
             android:id="@+id/action_funFact_to_FFActivity2"
             app:destination="@id/FFActivity2" />
     </fragment>
-    <activity
-        android:id="@+id/drinkActivity"
-        android:name="com.example.finalproject.DrinkActivity"
-        android:label="activity_drink"
-        tools:layout="@layout/activity_drink" />
-    <activity
-        android:id="@+id/exerciseActivity"
-        android:name="com.example.finalproject.ExerciseActivity"
-        android:label="activity_exercise"
-        tools:layout="@layout/activity_exercise" />
-    <activity
-        android:id="@+id/rulesOf20Activity"
-        android:name="com.example.finalproject.RulesOf20Activity"
-        android:label="activity_rules_of20"
-        tools:layout="@layout/activity_rules_of20" />
     <fragment
         android:id="@+id/FFActivity"
         android:name="com.example.finalproject.FFActivity"
