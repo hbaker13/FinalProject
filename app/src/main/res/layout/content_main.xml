@@ -21,7 +21,7 @@
         android:contentDescription="@string/what_name"
         android:onClick="showWhat"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/what_circle" />
+        android:src="@drawable/whatcircle" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
         android:contentDescription="@string/start_name"
         android:onClick="showStart"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/start_circle" />
+        android:src="@drawable/start" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -60,7 +60,7 @@
         android:contentDescription="@string/ff_name"
         android:onClick="showFunFact"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/funfact_circle" />
+        android:src="@drawable/funfactcircle" />
 
     <TextView
         android:layout_width="wrap_content"

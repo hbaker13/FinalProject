@@ -19,7 +19,7 @@
         android:layout_marginTop="0dp"
         android:contentDescription="@string/menu1"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/twenty_circle" />
+        android:src="@drawable/twentycircle" />
 
     <TextView
         android:id="@+id/twenyy"
@@ -45,7 +45,7 @@
         android:layout_marginTop="0dp"
         android:contentDescription="@string/menu2"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/drink_circle" />
+        android:src="@drawable/drinkcircle" />
 
     <TextView
         android:id="@+id/drinyyy"
@@ -72,7 +72,7 @@
         android:layout_marginTop="0dp"
         android:contentDescription="@string/menu3"
         android:padding="@dimen/padding_regular"
-        android:src="@drawable/exer_circle" />
+        android:src="@drawable/exercircle" />
 
     <TextView
         android:id="@+id/exy"

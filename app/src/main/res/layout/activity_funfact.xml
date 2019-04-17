@@ -20,7 +20,7 @@
         android:contentDescription="@string/funfact_titles1"
         android:onClick="showFF"
         android:padding="10sp"
-        android:src="@drawable/eyeeye" />
+        android:src="@drawable/eeyeeyee" />
 
     <TextView
         android:id="@+id/subTitle1"
@@ -39,7 +39,7 @@
         android:contentDescription="@string/funfact_titles2"
         android:onClick="showFF1"
         android:padding="10sp"
-        android:src="@drawable/drink_circle" />
+        android:src="@drawable/drinkcircle" />
 
     <TextView
         android:id="@+id/subTitle2"
@@ -59,7 +59,7 @@
         android:contentDescription="@string/funfact_titles3"
         android:onClick="showFF2"
         android:padding="10sp"
-        android:src="@drawable/exer_image" />
+        android:src="@drawable/exerimage" />
 
     <TextView
         android:id="@+id/subTitle3"
