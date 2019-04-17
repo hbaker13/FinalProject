@@ -10,7 +10,7 @@ import androidx.core.app.NotificationCompat;
 
 public class ReceiverD extends BroadcastReceiver {
 
-    private int NOTIF_ID;
+    private int NOTIF_ID1;
 
     public ReceiverD() {
 
@@ -21,7 +21,7 @@ public class ReceiverD extends BroadcastReceiver {
         NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
 
         Intent contentIntent = new Intent(context, Vid1.class);
-        PendingIntent contentPendingIntent = PendingIntent.getActivity(context, NOTIF_ID, contentIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        PendingIntent contentPendingIntent = PendingIntent.getActivity(context, NOTIF_ID1, contentIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context)
                 .setSmallIcon(R.drawable.ic_notif)
@@ -32,6 +32,6 @@ public class ReceiverD extends BroadcastReceiver {
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setDefaults(NotificationCompat.DEFAULT_ALL);
 
-        notificationManager.notify(NOTIF_ID, builder.build());
+        notificationManager.notify(NOTIF_ID1, builder.build());
     }
 }
