@@ -71,30 +71,6 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="drinkActivity">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="483" />
-                            <option name="y" value="456" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="exerciseActivity">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="486" />
-                            <option name="y" value="745" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
                   <entry key="funFact">
                     <value>
                       <LayoutPositions>
@@ -162,18 +138,6 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="rulesOf20Activity">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="481" />
-                            <option name="y" value="167" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
                   <entry key="startActivity">
                     <value>
                       <LayoutPositions>
@@ -182,25 +146,6 @@
                             <option name="x" value="227" />
                             <option name="y" value="454" />
                           </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_startActivity_to_drinkActivity">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                            <entry key="action_startActivity_to_exerciseActivity">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                            <entry key="action_startActivity_to_rulesOf20Activity">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
                         </option>
                       </LayoutPositions>
                     </value>

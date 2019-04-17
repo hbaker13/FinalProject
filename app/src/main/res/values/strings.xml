@@ -83,7 +83,7 @@ GitHub: SafiraRakhsanda</string>
     <string name="funfact_filler_text1">10 Simple and Relaxing Exercises for Your Eyes and Give You Great Eyesight
             \n \n
 Endless hours sat in front of a computer or a TV can be really bad for your eyes. Dryness, itchiness, headaches. Unfortunately, not all of us can afford to regularly go offline for a much needed break. And deliberately exercising your eyes can help immeasurably to maintain great vision. Here are ten such exercises which will take you no more than ten minutes to do.
-            \n \n
+  <!--          \n \n
 1. Blink for 2 minutes.
 	            \n \n
 This exercise helps to regulate blood circulation inside your eyes.
@@ -128,10 +128,10 @@ Repeat for 5 - 10 times.
                         \n \n
 -	After 10 - 15 seconds, refocus on your thumb.
                         \n \n
--	Practice it 5 times.
+-	Practice it 5 times.-->
         </string>
     <string name="funfact_filler_text2">What Happened If You Drink More Water?
-            \n \n
+         <!--   \n \n
 1. You Lose Weight Faster
             \n \n
 	By drinking only water for 9 days, you lose the same amount of calories as when jogging for 8 km a day.
@@ -166,10 +166,10 @@ Repeat for 5 - 10 times.
             \n \n
 9. And, of Course, You\'ll Save A Lot of Money.
             \n \n
-	The price of water is much lower than that of other drinks - think about it.
+	The price of water is much lower than that of other drinks - think about it.-->
 </string>
     <string name="funfact_filler_text3">7 Minutes Exercises if You are a Desk Jobbers.
-            \n \n
+            <!--\n \n
 1. To Relieve Eye Fatigue
 \n \n
 -	Blink your eyes for 10 times
@@ -197,7 +197,7 @@ Repeat for 5 - 10 times.
 -	Crunches on the exhale 2 times to each side
 \n \n
 -	Flex and point toes 8 - 10 times, it removes tension in your legs
-\n \n
+\n \n-->
 Don\'t forget to do these for 5 - 7 minutes every 2 - 3 hours to always ready for new challenges!
 </string>
     <string name="funfact_info_placeholder1">10 Simple and Relaxing Exercises for Your Eyesight</string>
@@ -206,9 +206,6 @@ Don\'t forget to do these for 5 - 7 minutes every 2 - 3 hours to always ready fo
     <string name="play_button">Play Video</string>
     <string name="pause_btn">Pause Video</string>
     <string name="stop_btn">Stop Video</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tmins_title">Hey, it\'s been 20 minutes!</string>
     <string name="tmins_text">Time to have a break!</string>
     <string name="drink_title">Hey, don\'t forget to have a drink!</string>
