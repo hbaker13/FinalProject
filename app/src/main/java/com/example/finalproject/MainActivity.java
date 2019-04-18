@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity{
             menu.findItem(R.id.night_mode).setTitle(R.string.night_mode);
         }
         return true;
-
     }
 
     @Override
