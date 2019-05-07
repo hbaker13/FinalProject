@@ -1,13 +1,12 @@
 package com.example.finalproject;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
 import android.widget.VideoView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashScreen extends AppCompatActivity {
     private void jump() {
@@ -25,7 +24,7 @@ public class SplashScreen extends AppCompatActivity {
             VideoView videoHolder = new VideoView(this);
             setContentView(videoHolder);
             Uri video = Uri.parse("android.resource://" + getPackageName() + "/"
-                    + R.raw.ss);
+                    + R.raw.iiiiiiiiii);
             videoHolder.setVideoURI(video);
 
             videoHolder.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
