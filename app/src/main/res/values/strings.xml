@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Two Twinks</string>
+    <string name="app_name">Two Winks</string>
     <string name="funfact_label">Fun Fact</string>
     <string name="filler">Lorem Ipsum</string>
     <string name="about_us">About Us</string>
@@ -23,18 +23,13 @@
     <string name="twenty">Rules Of 20</string>
     <string name="drink">Drink</string>
     <string name="exer">Simple Exercise</string>
-    <string name="what">    \"Two Twinks\" is a simple reminder app for the ones who usually spend hours playing gadgets, or the ones who want to keep their body fine while playing gadgets. This app contains the reminder of \"The Rule of 20\", the reminder to do the most important, but rarely done thing that is to drink and some simple exercises.</string>
-    <string name="why">	    Why we do have to do those things, is because sometimes, when we are already busy with our gadgets doing god-knows-what, we\'ll forget about our eyes\' and bodys\' healthiness that will make us fell regretion later.</string>
-    <string name="how">	    \"Rule of 20\" is a rule that\'s made by Prof. where gadgets player get a 20 secs. break after 20 mins. of playing gadgets by looking at an object in 20 feet or blinking their eyes for 20 times. For drinking reminder, the user will be notified to drink after every 2 hours. And for simple exercises, we\'ll notified you to also nod your head after every 2 hours to right and left and to do other stretching exercise for 10 minutes.</string>
-    <string name="bout_us"> We made \"Two Twinks\" for the ones who usually spend hours playing gadgets, or the ones who want to keep their body fine while playing gadgets.
-        \n\n
-        We inspirited from our headmaster, who always coding in 3 days and forget to do something else -except to pray, and also from our experiences\' and our friends\' experience too.
-	\n\n
-        \"Two Twinks\" is our final project for our program study in our school. We work together in this app, our team consists of four people, they are:
+    <string name="what">    \"Two Winks\" is a simple reminder app for the ones who usually spend hours playing gadgets, or the ones who want to keep their body fine while playing gadgets. This app contains the reminder of the \"Rule of 20\" and the reminder to do the two important but rarely done things while playing gadgets, that is to drink and to stretch.</string>
+    <string name="why">        We have to do those things because sometimes, when we are already busy with our gadgets doing business, we\'ll forget about our eyes\'s and bodies\'s healthiness that will make us feel regret later. </string>
+    <string name="how">        The Rule of 20 (20–20–20 rule), popularized by Dr. Jeffrey R. Anshel from California, a specialist in vision ergonomics, states that to relieve eye strain one should close their eyes or gaze at something 20 feet away for 20 seconds after every 20 minutes of screen time. In that context, Two Winks will send a notification to the user as a reminder of the Rule of 20. As for the other reminder, the app will send the notification every 2 hours to drink and every 4 hours to stretch. Users just have to click the notification that will lead them to the \’Fun Facts!\’ menu (from the main menu), containing videos of what do they have to do. </string>
+
+    <string name="bout_us"> \”Two Winks\” is our final project of our study program in our Boarding School, Fahim Quran Plus. Rule of 20 is our main idea, but our headmaster, Ust. Purwanto Abdul Ghaffar, is also one the reasons why we build this application. He has once done the coding for 3 days straight and ended up getting a serious muscles condition. That incident moves us to also put the other features in this application. Here to contact us:
 \n\n\
-        1. Inasul
-	\n\n
-        The first leader who also the creators and the programmers of this application. Some of her account:
+1. Inas Maritza
         \n\n
 IG : @nasuul
         \n\n
@@ -42,9 +37,7 @@ Email: inasulm@gmail.com
         \n\n
 GitHub: maritzul
         \n\n
-2. Riyu
-        \n\n
-	The second leader who also the illustrator and the programmers of this application. Some of her account:
+2. Maurisa A. T. Budiyono
         \n\n
 IG: @Il_Dimenticato835
         \n\n
@@ -52,9 +45,7 @@ Email: riyu08305@gmail.com
         \n\n
 GitHub: Riyu835
         \n\n
-3. Maira
-        \n\n
-	The member who also the additional resources and the programmers. Some of her account:
+3. Khalifa Almaira S.
         \n\n
 IG: @almairaaaz
         \n\n
@@ -62,9 +53,7 @@ Email: Khalifaalmaira106@gmail.com
         \n\n
 GitHub: hbaker13
         \n\n
-4. H.I
-        \n\n
-	Also the member who work in additional resource and the programmers.Some of her account:
+4. Safira Rakhsanda
         \n\n
 IG: @simpelphi_
         \n\n

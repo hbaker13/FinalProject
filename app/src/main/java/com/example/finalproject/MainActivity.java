@@ -32,10 +32,6 @@ public class MainActivity extends AppCompatActivity{
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.us:
-                Intent intent = new Intent(this, UsActivity.class);
-                startActivity(intent);
-                return true;
             case R.id.night_mode:
                 if(item.getItemId()==R.id.night_mode){
                     int nightMode = AppCompatDelegate.getDefaultNightMode();
@@ -69,5 +65,10 @@ public class MainActivity extends AppCompatActivity{
     public void showFunFact(View view) {
         Intent iff = new Intent(this, FunFact.class);
         startActivity(iff);
+    }
+
+    public void showAboutUs(View view) {
+        Intent iau = new Intent(this, UsActivity.class);
+        startActivity(iau);
     }
 }
