@@ -12,4 +12,9 @@
     <style name="MenuDetailText" parent="TextAppearance.AppCompat.Subhead"/>
 
     <style name="MenuTitle" parent="TextAppearance.AppCompat.Headline"/>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>
